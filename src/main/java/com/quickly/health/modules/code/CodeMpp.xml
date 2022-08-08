@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.quickly.health.modules.code.CodeMpp">
+
+    <resultMap id="resultMapObj" type="com.quickly.health.modules.code.Code"></resultMap>
+    
+    <select id="selectListForCache" resultMap="resultMapObj">
+		SELECT
+			hkcdSeq
+		    , hkcdName
+		FROM
+			hekpCode
+		WHERE 1=1
+			AND hkcdUseNy = 1
+		    AND hkcdDelNy = 0
+	</select>
+    
+</mapper>
