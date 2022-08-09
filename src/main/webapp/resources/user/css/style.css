@@ -807,6 +807,10 @@ margin: 0 15px 20px 15px;
 
 /** end newslatter section **/
 
+
+
+/** three_box section **/
+
 .three_box {
 	 padding-top: 100px;
      margin-bottom: -80px;
@@ -832,10 +836,11 @@ margin: 0 15px 20px 15px;
      display: block;
 }
 
-
-/** three_box section **/
-
-
+.lie_footer {
+     background: #183661;
+     height: 200px;
+     text-align: center;
+}
 /** end three_box section **/
 
 
@@ -843,7 +848,6 @@ margin: 0 15px 20px 15px;
 
 .footer {
      background: #183661;
-     padding-top: 170px;
      text-align: center;
 }
 
@@ -868,7 +872,6 @@ margin: 0 15px 20px 15px;
 }
 
 .copyright {
-     margin-top: 80px;
      padding-bottom: 20px;
      background: #fbfdfd;
 }

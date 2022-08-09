@@ -62,6 +62,8 @@
             </div>
          </div>
       </div>
+      <div class="lie_footer">
+      </div>
       <!-- end three_box section -->
 	
 <%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
