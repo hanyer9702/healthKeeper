@@ -15,13 +15,18 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 		
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+		<link rel="stylesheet" href="/resources/user/css/styleHealth.css">
 	</head>
 	
 	<!-- body -->
    <body class="main-layout">
       <!-- loader  -->
       <div class="loader_bg">
-         <div class="loader"><img src="/resources/user/images/loading.gif" alt="#" /></div>
+         <div class="loader">
+         	<div class="spinner-border text-warning" style="width: 10rem; height: 10rem;" role="status">
+			  <span class="visually-hidden">Loading...</span>
+			</div>
+		</div>d
       </div>
       <!-- end loader -->
       <!-- header -->
@@ -41,7 +46,8 @@
                      </div>
                      <div class="col-md-4">
                         <ul class="right_icon d_none1">
-                           <a href="#" class="order">로그인</a> 
+                           <a href="/user/loginForm" class="order">로그인</a> 
+                           <a href="/user/myMemberView" class="order">마이페이지</a> 
                         </ul>
                      </div>
                   </div>
