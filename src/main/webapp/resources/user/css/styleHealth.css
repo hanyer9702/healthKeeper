@@ -82,7 +82,83 @@
   width: 0;
   position: absolute; 
   left: 0;
-  color: yellow;
+  color: #f2c119;
   overflow: hidden;
   pointer-events: none;
 } 
+
+.reviewContainer{
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right:10px;
+}
+
+.reviewPriceDiv{
+	background-color: #EAEAEA;
+	font-size: 21px;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-right: 30px;
+}
+
+.review_Star {
+  position: relative;
+  font-size: 25px;
+  color: #ddd;
+}
+
+.review_Star input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.review_Star span {
+  width: 0;
+  position: absolute; 
+  left: 0;
+  color: #f2c119;
+  overflow: hidden;
+  pointer-events: none;
+} 
+
+.review_img{
+	margin-top: 5px;
+	width: 50px;
+}
+
+.review_name_font{
+	margin-top: 5px;
+	font-size:30px;
+	color: black;
+}
+
+.review_title_font{
+	font-size: 20px;
+	color: black;
+}
+
+.review_content_font{
+	font-size: 18px;
+	color: black;
+}
+
+.starBig{
+  font-size: 50px;
+  color: #f2c119;
+}
+
+.starBig_font{
+	font-size: 35px;
+	color: #f2c119;
+	margin-top: -10px;
+}
+
+.reviewHr{
+	background-color: #f2c119;
+	height: 3px;
+}
