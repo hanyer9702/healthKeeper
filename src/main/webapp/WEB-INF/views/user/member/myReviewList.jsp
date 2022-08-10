@@ -39,7 +39,7 @@
 								                     </div>
 			                     				</div>
 			                     			</div>
-					                    	<hr class="reviewHr">	
+					                    	<hr class="reviewHr" style="height:3px;">	
 			                     			<div class="col-md-12">
 			                     				<div class="row">
 			                     					<div class="col-auto">
@@ -47,15 +47,15 @@
 														  ★
 														 </p>
 			                     					</div>
-													 <div class="col-auto" style="margin-left:-15px; margin-right:-30px;">
+													 <div class="col-auto" style="margin-left:-15px; margin-right:-26px;">
 							                     		<h2 class="starBig_font">7.3</h2>
 							                     	</div>
 							                     	<div class="col-auto">
-							                     		<h2>/ 10</h2>
+							                     		<h2 style="margin-top:7px;">/ 10</h2>
 							                     	</div>
 			                     				</div>
 			                     			</div>
-					                    	<hr class="reviewHr">	
+					                    	<hr class="reviewHr" style="height:3px;">	
 			                     			<div class="col-md-12">
 			                     				<div class="row">
 			                     					<div class="col-auto">
@@ -127,6 +127,7 @@
 							                     	</div>
 			                     				</div>
 			                     			</div>
+			                     			<hr class="reviewHr">
 			                     		</div>
 			                     	</div>
 			                     	<div class="col-md-8">

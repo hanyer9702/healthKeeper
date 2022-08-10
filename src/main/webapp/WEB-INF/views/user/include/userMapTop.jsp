@@ -33,26 +33,6 @@
       <header>
          <!-- header inner -->
          <div class="header">
-            <div class="header_midil">
-               <div class="container">
-                  <div class="row d_flex">
-                     <div class="col-md-4">
-                        <ul class="conta_icon d_none1">
-                           <li><a href="#"><img src="/resources/user/images/email.png" alt="#"/> hanyer9702@gmail.com</a> </li>
-                        </ul>
-                     </div>
-                     <div class="col-md-4">
-                        <a class="logo" href="/user/userIndex"><img src="/resources/user/images/logo.png" alt="#"/></a>
-                     </div>
-                     <div class="col-md-4">
-                        <ul class="right_icon d_none1">
-                           <a href="/user/loginForm" class="order">로그인</a> 
-                           <a href="/user/myMemberView" class="order">마이페이지</a> 
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
             <div class="header_bottom">
                <div class="container">
                   <div class="row">

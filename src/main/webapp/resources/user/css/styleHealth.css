@@ -1,3 +1,5 @@
+.fixed { position: fixed; top:100; left:100; }
+
 .profile_img{
 	border: 3px solid black;
 	width: 180px;
@@ -160,5 +162,25 @@
 
 .reviewHr{
 	background-color: #f2c119;
-	height: 3px;
+}
+
+.container_map {
+	width: 1000px;
+    display: flex; 
+    flex-flow: row nowrap; 
+    text-align: center;
+    margin: auto;
+}
+
+.divRe{
+	width: 50%;
+	height: 5000px;
+}
+
+.divSt{
+	position: -webkit-sticky;
+	position: sticky;
+	width: 50%;
+	height: 800px;
+	top: 0;
 }
