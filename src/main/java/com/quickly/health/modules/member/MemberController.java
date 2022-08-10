@@ -30,4 +30,16 @@ public class MemberController {
 		
 		return "/user/member/myMemberEdit";
 	}
+	
+	@RequestMapping(value = "/user/myReviewList")
+	public String userMyReviewList(Model model) throws Exception {
+		
+		return "/user/member/myReviewList";
+	}
+	
+	@RequestMapping(value = "/user/myBookmarkList")
+	public String userMyBookmarkList(Model model) throws Exception {
+		
+		return "/user/member/myBookmarkList";
+	}
 }

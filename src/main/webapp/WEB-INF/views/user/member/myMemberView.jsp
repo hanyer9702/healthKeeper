@@ -39,12 +39,12 @@
 	                     	</div>
 	                     </div>
 	                     <div class="col-md-12">
-	                     	<div class="divOrange">
+	                     	<div class="divOrange" onclick="location.href = '/user/myReviewList'">
 	                     		<h1 class="bigH1">나의 리뷰</h1>
 	                     	</div>
 	                     </div>
 	                     <div class="col-md-12">
-	                     	<div class="divOrange">
+	                     	<div class="divOrange" onclick="location.href = '/user/myBookmarkList'">
 	                     		<h1 class="bigH1">북마크한 병원</h1>
 	                     	</div>
 	                     </div>

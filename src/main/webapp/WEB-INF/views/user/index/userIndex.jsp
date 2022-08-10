@@ -10,7 +10,7 @@
             <div class="row">
                <div class="col-md-8">
                   <div class="text-bg">
-                     <h1> <span class="blodark"> 건강지킴이 </span> <br>Trands 2022</h1>
+                     <h1> <span class="blodark"> 건강지킴이 </span> <br>Trends 2022</h1>
                      <p>건강한 삶, 건강지킴이와 함께 </p>
                   </div>
                </div>
