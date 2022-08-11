@@ -26,7 +26,7 @@
          	<div class="spinner-border text-warning" style="width: 10rem; height: 10rem;" role="status">
 			  <span class="visually-hidden">Loading...</span>
 			</div>
-		</div>d
+		</div>
       </div>
       <!-- end loader -->
       <!-- header -->
@@ -35,8 +35,11 @@
          <div class="header">
             <div class="header_bottom">
                <div class="container">
-                  <div class="row">
-                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-8">
+                  <div class="row d_flex">
+                  	 <div class="col-md-2">
+                        <a class="logo" href="/user/userIndex" style="margin-top:10px;"><img src="/resources/common/img/logo/logo_white.jpg" alt="#"/></a>
+                     </div>
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
                         <nav class="navigation navbar navbar-expand-md navbar-dark ">
                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                            <span class="navbar-toggler-icon"></span>
@@ -62,16 +65,18 @@
                            </div>
                         </nav>
                      </div>
-                     <div class="col-md-4">
-                        <a class="logo" href="/user/userIndex" style="margin-top:10px;"><img src="/resources/common/img/logo/logo_white.jpg" alt="#"/></a>
-                     </div>
-                     <div class="col-md-4">
+                     <div class="col-md-5">
                         <div class="search">
-                           <form action="/action_page.php">
+                           <form action="">
                               <input class="form_sea" type="text" placeholder="검색어를 입력하세요" name="search">
                               <button type="submit" class="seach_icon"><i class="fa fa-search"></i></button>
                            </form>
                         </div>
+                     </div>
+                     <div class="col-md-2">
+                        <ul class="right_icon d_none1">
+                           <a href="/user/loginForm" class="orderDark">로그인</a> 
+                        </ul>
                      </div>
                   </div>
                </div>
