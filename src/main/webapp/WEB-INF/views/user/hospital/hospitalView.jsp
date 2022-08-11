@@ -193,39 +193,126 @@
 									※ 건강보험심사평가원에서 가져온 한국건강관리협회 건강증진의원의 진료 정보입니다.
 			                  	</h2>
 		                  	</div>
-		                  	<div class="col-12 mt-1">
-		                  		<table class="table" style="text-align: center;">
-								  <thead>
-								    <tr class="table-primary">
-								      <th scope="col" style="width:75%;">진료</th>
-								      <th scope="col" style="width:25%;">가격(원)</th>
-								    </tr>
-								  </thead>
-								  <tbody>
-								    <tr>
-								      <td><h2>독감예방접종료</h2></td>
-								      <td><h2>26,000</h2></td>
-								    </tr>
-								    <tr>
-								      <td><h2>동맥경화도검사</h2></td>
-								      <td><h2>10,030</h2></td>
-								    </tr>
-								    <tr>
-								      <td><h2>진단초음파</h2></td>
-								      <td><h2>72,100</h2></td>
-								    </tr>
-								  </tbody>
-								</table>
+		                  	<div class="col-12 mt-2">
+		                  		<div class="row d-flex justify-content-center">
+		                  			<div class="col-11">
+				                  		<table class="table" style="width:100%;">
+										  <thead>
+										    <tr class="table-primary">
+										      <th scope="col" style="width:75%;">진료</th>
+										      <th scope="col" style="width:25%;">가격(원)</th>
+										    </tr>
+										  </thead>
+										  <tbody>
+										    <tr>
+										      <td><h2>독감예방접종료</h2></td>
+										      <td><h2>26,000</h2></td>
+										    </tr>
+										    <tr>
+										      <td><h2>동맥경화도검사</h2></td>
+										      <td><h2>10,030</h2></td>
+										    </tr>
+										    <tr>
+										      <td><h2>진단초음파</h2></td>
+										      <td><h2>72,100</h2></td>
+										    </tr>
+										  </tbody>
+										</table>
+		                  			</div>
+								</div>
 		                  	</div>
 	                  	</div>
 	                  	
 	                  	<!-- 가격정보 끝 -->
 	                  	<hr>
 	                  	<!-- 리뷰시작 -->
-		                  <div class="row gy-5 mt-5">
+		                  <div class="row gy-2 mt-1">
 							<div class="col-12">
 								<h1>리뷰 <b style="color: #183661;">248</b></h1>
-							</div>		                  
+							</div>	
+							<div class="col-10 offset-1">
+								<div class="row d-flex justify-content-center" style="border: 1px solid black">
+									<div class="col-4 review_Box" style="background-color: #EAEAEA">
+										<div class="review_Box_left">
+											<div style="text-align: center;">
+												<h1 class="bigH1" style="display: inline;">8.7</h1><h1 style="display: inline;">/10</h1>
+											</div>
+										</div>
+									</div>
+									<div class="col-8 review_Box d-flex justify-content-center align-items-center">
+										<div class="row review_Box_right">
+											<div class="col-6 d-flex align-items-center">
+												<div class="row">
+			                     					<div class="col-auto">
+			                     						<h2>자세한 설명</h2>
+			                     					</div>
+													<div class="col-auto">
+							                     		<div style="margin-top:-12px;">
+									                     	<span class="review_Star">
+															  ★★★★★
+															  <span style="width: 50%;">
+															  	★★★★★
+															  </span>
+															 </span>
+						                     			</div>
+							                     	</div>
+			                     				</div>
+											</div>
+											<div class="col-6 d-flex align-items-center">
+												<div class="row">
+			                     					<div class="col-auto">
+			                     						<h2>치료후 결과</h2>
+			                     					</div>
+													<div class="col-auto">
+							                     		<div style="margin-top:-12px;">
+									                     	<span class="review_Star">
+															  ★★★★★
+															  <span style="width: 50%;">
+															  	★★★★★
+															  </span>
+															 </span>
+						                     			</div>
+							                     	</div>
+			                     				</div>
+											</div>
+											<div class="col-6 d-flex align-items-center">
+												<div class="row">
+			                     					<div class="col-auto">
+			                     						<h2>직원의 친절</h2>
+			                     					</div>
+													<div class="col-auto">
+							                     		<div style="margin-top:-12px;">
+									                     	<span class="review_Star">
+															  ★★★★★
+															  <span style="width: 50%;">
+															  	★★★★★
+															  </span>
+															 </span>
+						                     			</div>
+							                     	</div>
+			                     				</div>
+											</div>
+											<div class="col-6 d-flex align-items-center">
+												<div class="row">
+			                     					<div class="col-auto">
+			                     						<h2>청결함</h2>
+			                     					</div>
+													<div class="col-auto">
+							                     		<div style="margin-top:-12px;">
+									                     	<span class="review_Star">
+															  ★★★★★
+															  <span style="width: 50%;">
+															  	★★★★★
+															  </span>
+															 </span>
+						                     			</div>
+							                     	</div>
+			                     				</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>	                  
 		                  	<div class="col-md-12">
 		                     	<div class="divOrange reviewContainer" style="height: 100%;" onclick="location.href = ''">
 				                     <div class="row">
