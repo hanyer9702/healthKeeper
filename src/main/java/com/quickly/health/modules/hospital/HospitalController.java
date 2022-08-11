@@ -12,4 +12,10 @@ public class HospitalController {
 				
 		return "/user/hospital/hospitalSearchList";
 	}
+	
+	@RequestMapping(value = "/user/hospitalView")
+	public String userHospitalView(Model model) throws Exception {
+		
+		return "/user/hospital/hospitalView";
+	}
 }

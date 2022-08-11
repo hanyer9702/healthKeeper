@@ -1,3 +1,41 @@
+.viewNav{
+	overflow: hidden;
+  background-color: #FFFFFF;
+  list-style: none;
+  position: sticky;
+  top: 0;
+  z-index: 1000 !important; 
+}
+
+.viewUl {
+  background-color: #FFFFFF;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-top: 5px;
+  text-align: center;
+  display: block;
+  border-top: 0;
+  border-bottom: 2px solid #EAEAEA;
+}
+
+.viewLi {
+	display:inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left:20px;
+  margin-right: 20px;
+}
+
+.viewActive {
+  color: #183661;
+  border-bottom: 5px solid #183661;
+}
+
 .fixed { position: fixed; top:100; left:100; }
 
 .profile_img{
@@ -9,6 +47,17 @@
 
 .profile_img img{
 	width: 90%;
+}
+
+.hospital_img{
+	border: 3px solid black;
+	width: 500px;
+	height: 300px;
+	text-align: center;
+}
+
+.hospital_img img{
+	height: 90%;
 }
 
 
@@ -31,8 +80,35 @@
      transition: ease-in all 0.5s;
 }
 
+.send_btn_Ra{
+	background: #183661;
+     font-weight: 500;
+     font-size: 18px;
+     width: 130px;
+     color: #fff;
+     height: 35px;
+     margin-top: 5px;
+     margin-right: 5px;
+     transition: ease-in all 0.5s;
+     border-radius: 5px;
+     text-align: center;
+}
+
+.send_btn_Ra:hover {
+     background: #f2c119;
+     transition: ease-in all 0.5s;
+}
+
 .bigH1{
 	font-size:50px;
+}
+
+.contentH1{
+	font-size:20px;
+	margin-top: 7px;
+	margin-left: 5px;
+	display: inline;
+	padding-bottom: 0px;
 }
 
 .divOrange{
@@ -174,7 +250,7 @@
 .divRe{
 	padding-top: 80px;
 	width: 50%;
-	height: 5000px;
+	height: auto;
 	padding-right: 20px;
 }
 
@@ -206,4 +282,15 @@
 
 #roadviewControl.active {
 	background-position:0 -350px;
+}
+
+.mapBox{
+	width: 90%;
+	background-color: #5D5D5D;
+	color: white;
+	font-size: 20px;
+}
+
+.alertFont{
+	color: #CC3D3D;
 }

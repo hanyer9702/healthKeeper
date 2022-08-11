@@ -7,6 +7,254 @@
 	      	<div class="divRe">
 	      		<div class="row gy-2">
                   	<div class="col-md-12">
+                     	<div class="divOrange" onclick="location.href = '/user/hospitalView'">
+                     		<div>
+			                     <h1>문현치과의원</h1>
+		                  	 </div>
+		                     <div class="row">
+		                     	<div class="col-auto">
+		                     		<div style="margin-top:-15px;">
+				                     	<span class="star">
+										  ★★★★★
+										  <span style="width: 50%;">
+										  	★★★★★
+										  </span>
+										 </span>
+	                     			</div>
+		                     	</div>
+		                     	<div class="col-auto" style="margin-left:-15px;">
+		                     		<h4>9</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>|</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>리뷰 7</h4>
+		                     	</div>
+		                     	<div class="col-12">
+		                     		<h4>서울 관악구 미성동</h4>
+		                     	</div>
+		                     </div>
+                     	</div>
+                     </div>
+                  	<div class="col-md-12">
+                     	<div class="divOrange" onclick="location.href = ''">
+                     		<div>
+			                     <h1>문현치과의원</h1>
+		                  	 </div>
+		                     <div class="row">
+		                     	<div class="col-auto">
+		                     		<div style="margin-top:-15px;">
+				                     	<span class="star">
+										  ★★★★★
+										  <span style="width: 50%;">
+										  	★★★★★
+										  </span>
+										 </span>
+	                     			</div>
+		                     	</div>
+		                     	<div class="col-auto" style="margin-left:-15px;">
+		                     		<h4>9</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>|</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>리뷰 7</h4>
+		                     	</div>
+		                     	<div class="col-12">
+		                     		<h4>서울 관악구 미성동</h4>
+		                     	</div>
+		                     </div>
+                     	</div>
+                     </div>
+                  	<div class="col-md-12">
+                     	<div class="divOrange" onclick="location.href = ''">
+                     		<div>
+			                     <h1>문현치과의원</h1>
+		                  	 </div>
+		                     <div class="row">
+		                     	<div class="col-auto">
+		                     		<div style="margin-top:-15px;">
+				                     	<span class="star">
+										  ★★★★★
+										  <span style="width: 50%;">
+										  	★★★★★
+										  </span>
+										 </span>
+	                     			</div>
+		                     	</div>
+		                     	<div class="col-auto" style="margin-left:-15px;">
+		                     		<h4>9</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>|</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>리뷰 7</h4>
+		                     	</div>
+		                     	<div class="col-12">
+		                     		<h4>서울 관악구 미성동</h4>
+		                     	</div>
+		                     </div>
+                     	</div>
+                     </div>
+                  	<div class="col-md-12">
+                     	<div class="divOrange" onclick="location.href = ''">
+                     		<div>
+			                     <h1>문현치과의원</h1>
+		                  	 </div>
+		                     <div class="row">
+		                     	<div class="col-auto">
+		                     		<div style="margin-top:-15px;">
+				                     	<span class="star">
+										  ★★★★★
+										  <span style="width: 50%;">
+										  	★★★★★
+										  </span>
+										 </span>
+	                     			</div>
+		                     	</div>
+		                     	<div class="col-auto" style="margin-left:-15px;">
+		                     		<h4>9</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>|</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>리뷰 7</h4>
+		                     	</div>
+		                     	<div class="col-12">
+		                     		<h4>서울 관악구 미성동</h4>
+		                     	</div>
+		                     </div>
+                     	</div>
+                     </div>
+                  	<div class="col-md-12">
+                     	<div class="divOrange" onclick="location.href = ''">
+                     		<div>
+			                     <h1>문현치과의원</h1>
+		                  	 </div>
+		                     <div class="row">
+		                     	<div class="col-auto">
+		                     		<div style="margin-top:-15px;">
+				                     	<span class="star">
+										  ★★★★★
+										  <span style="width: 50%;">
+										  	★★★★★
+										  </span>
+										 </span>
+	                     			</div>
+		                     	</div>
+		                     	<div class="col-auto" style="margin-left:-15px;">
+		                     		<h4>9</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>|</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>리뷰 7</h4>
+		                     	</div>
+		                     	<div class="col-12">
+		                     		<h4>서울 관악구 미성동</h4>
+		                     	</div>
+		                     </div>
+                     	</div>
+                     </div>
+                  	<div class="col-md-12">
+                     	<div class="divOrange" onclick="location.href = ''">
+                     		<div>
+			                     <h1>문현치과의원</h1>
+		                  	 </div>
+		                     <div class="row">
+		                     	<div class="col-auto">
+		                     		<div style="margin-top:-15px;">
+				                     	<span class="star">
+										  ★★★★★
+										  <span style="width: 50%;">
+										  	★★★★★
+										  </span>
+										 </span>
+	                     			</div>
+		                     	</div>
+		                     	<div class="col-auto" style="margin-left:-15px;">
+		                     		<h4>9</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>|</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>리뷰 7</h4>
+		                     	</div>
+		                     	<div class="col-12">
+		                     		<h4>서울 관악구 미성동</h4>
+		                     	</div>
+		                     </div>
+                     	</div>
+                     </div>
+                  	<div class="col-md-12">
+                     	<div class="divOrange" onclick="location.href = ''">
+                     		<div>
+			                     <h1>문현치과의원</h1>
+		                  	 </div>
+		                     <div class="row">
+		                     	<div class="col-auto">
+		                     		<div style="margin-top:-15px;">
+				                     	<span class="star">
+										  ★★★★★
+										  <span style="width: 50%;">
+										  	★★★★★
+										  </span>
+										 </span>
+	                     			</div>
+		                     	</div>
+		                     	<div class="col-auto" style="margin-left:-15px;">
+		                     		<h4>9</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>|</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>리뷰 7</h4>
+		                     	</div>
+		                     	<div class="col-12">
+		                     		<h4>서울 관악구 미성동</h4>
+		                     	</div>
+		                     </div>
+                     	</div>
+                     </div>
+                  	<div class="col-md-12">
+                     	<div class="divOrange" onclick="location.href = ''">
+                     		<div>
+			                     <h1>문현치과의원</h1>
+		                  	 </div>
+		                     <div class="row">
+		                     	<div class="col-auto">
+		                     		<div style="margin-top:-15px;">
+				                     	<span class="star">
+										  ★★★★★
+										  <span style="width: 50%;">
+										  	★★★★★
+										  </span>
+										 </span>
+	                     			</div>
+		                     	</div>
+		                     	<div class="col-auto" style="margin-left:-15px;">
+		                     		<h4>9</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>|</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>리뷰 7</h4>
+		                     	</div>
+		                     	<div class="col-12">
+		                     		<h4>서울 관악구 미성동</h4>
+		                     	</div>
+		                     </div>
+                     	</div>
+                     </div>
+                  	<div class="col-md-12">
                      	<div class="divOrange" onclick="location.href = ''">
                      		<div>
 			                     <h1>문현치과의원</h1>
@@ -78,8 +326,18 @@
 	      	</div>
 		</div>
 	</div>
-	<div style="width: 100%; height: 200px;">
-	
+	<div class="row" style="width: 100%; height: 200px; padding-top: 100px;">
+		<div class="col-6">
+			<nav aria-label="Page navigation example">
+			  <ul class="pagination justify-content-center">
+			    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+			    <li class="page-item"><a class="page-link" href="#">1</a></li>
+			    <li class="page-item"><a class="page-link" href="#">2</a></li>
+			    <li class="page-item"><a class="page-link" href="#">3</a></li>
+			    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+			  </ul>
+			</nav>
+		</div>
 	</div>
       
       <%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
