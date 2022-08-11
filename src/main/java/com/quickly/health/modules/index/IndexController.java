@@ -18,4 +18,10 @@ public class IndexController {
 				
 		return "/user/index/userIndex";
 	}
+	
+	@RequestMapping(value = "/test")
+	public String test(Model model) throws Exception {
+		
+		return "/user/hospital/test";
+	}
 }

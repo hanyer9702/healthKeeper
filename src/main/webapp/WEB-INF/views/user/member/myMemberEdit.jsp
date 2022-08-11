@@ -2,8 +2,6 @@
 <%@ include file="/WEB-INF/views/common/include/head.jsp"%>
 <%@ include file="/WEB-INF/views/user/include/userTop.jsp"%>
 
-</head>
-<body>
 
 	<!-- banner -->
       <div class="blue_bg">
@@ -11,7 +9,7 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2>회원가입</h2>
+                     <h2>프로필 수정</h2>
                   </div>
                </div>
             </div>
@@ -132,6 +130,10 @@
 		</div>
 	
 		<!-- withdrawModal e -->
+		
+		<script>
+			document.title = '프로필 수정';
+		</script>
 
 <%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
 <%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>

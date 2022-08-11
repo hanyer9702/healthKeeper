@@ -26,7 +26,7 @@
          	<div class="spinner-border text-warning" style="width: 10rem; height: 10rem;" role="status">
 			  <span class="visually-hidden">Loading...</span>
 			</div>
-		</div>d
+		</div>
       </div>
       <!-- end loader -->
       <!-- header -->
@@ -42,7 +42,7 @@
                         </ul>
                      </div>
                      <div class="col-md-4">
-                        <a class="logo" href="/user/userIndex"><img src="/resources/user/images/logo.png" alt="#"/></a>
+                        <a class="logo" href="/user/userIndex"><img src="/resources/common/img/logo/logo.png" alt="#"/></a>
                      </div>
                      <div class="col-md-4">
                         <ul class="right_icon d_none1">

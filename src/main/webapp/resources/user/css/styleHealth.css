@@ -173,14 +173,16 @@
 }
 
 .divRe{
+	padding-top: 80px;
 	width: 50%;
 	height: 5000px;
 }
 
 .divSt{
+	padding-top: 80px;
 	position: -webkit-sticky;
 	position: sticky;
 	width: 50%;
-	height: 800px;
+	height: calc(100vh - 80px);
 	top: 0;
 }

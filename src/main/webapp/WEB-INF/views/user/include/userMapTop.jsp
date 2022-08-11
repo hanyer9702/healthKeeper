@@ -30,23 +30,23 @@
       </div>
       <!-- end loader -->
       <!-- header -->
-      <header>
+      <header class="searchHeader fixed-top">
          <!-- header inner -->
          <div class="header">
             <div class="header_bottom">
                <div class="container">
                   <div class="row">
-                     <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8">
+                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-8">
                         <nav class="navigation navbar navbar-expand-md navbar-dark ">
                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                            <span class="navbar-toggler-icon"></span>
                            </button>
                            <div class="collapse navbar-collapse" id="navbarsExample04">
                               <ul class="navbar-nav mr-auto">
-                                 <li class="nav-item active">
+                                 <li class="nav-item">
                                     <a class="nav-link" href="/user/userIndex">홈</a>
                                  </li>
-                                 <li class="nav-item">
+                                 <li class="nav-item active">
                                     <a class="nav-link" href="/user/hospitalSearchList">병원 검색</a>
                                  </li>
                                  <!-- <li class="nav-item">
@@ -61,6 +61,9 @@
                               </ul>
                            </div>
                         </nav>
+                     </div>
+                     <div class="col-md-4">
+                        <a class="logo" href="/user/userIndex" style="margin-top:10px;"><img src="/resources/common/img/logo/logo_white.jpg" alt="#"/></a>
                      </div>
                      <div class="col-md-4">
                         <div class="search">

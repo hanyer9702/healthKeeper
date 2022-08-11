@@ -3726,6 +3726,11 @@
 	<script src="/resources/chat/assets/js/pages/index.init.js"></script>
 	
 	<script src="/resources/chat/assets/js/app.js"></script>
+	
+	<script>
+		/* 병원 이름 넣기 */
+		document.title = '채팅';
+	</script>
 
 
 <%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>

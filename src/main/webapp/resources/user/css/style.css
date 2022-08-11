@@ -846,6 +846,12 @@ margin: 0 15px 20px 15px;
 
 /** footer **/
 
+#wrapper{
+  height: auto;
+  min-height: calc(100vh - 192px);
+  padding-bottom: 192px;
+}
+
 .footer {
      background: #183661;
      margin-top: 50px;

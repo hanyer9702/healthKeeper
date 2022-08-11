@@ -2,9 +2,6 @@
 <%@ include file="/WEB-INF/views/common/include/head.jsp"%>
 <%@ include file="/WEB-INF/views/user/include/userTop.jsp"%>
 
-</head>
-<body>
-
 	<!-- banner -->
       <div class="blue_bg">
          <div class="container">
@@ -47,6 +44,10 @@
          </div>
       </div>
       <!-- end contact section -->
+      
+      <script>
+		document.title = '로그인';
+	</script>
 
 <%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
 <%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>

@@ -14,4 +14,4 @@
 		<link href="/resources/common/_bootstrap/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
 		<link href="/resources/common/jquery/jquery-ui-1.13.1.custom/jquery-ui.css" rel="stylesheet">
 		<link href="/resources/common/css/style.css" rel="stylesheet" type="text/css">
-		<title>건강지키미</title>
+		<title>건강지킴이</title>
