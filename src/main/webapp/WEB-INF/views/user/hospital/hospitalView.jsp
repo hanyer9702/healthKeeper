@@ -605,11 +605,6 @@
 		                     	</div>
 		                     </div>
 		                  </div>
-	                     <div class="row justify-content-center">
-	                          <div class="col-md-3">
-	                             <button type="button" class="send_btn" onclick="location.href='/user/myMemberView'">뒤로 가기</button>
-	                          </div>
-	                       </div>
 	                  </div>
 	               </div>
 	            </div>

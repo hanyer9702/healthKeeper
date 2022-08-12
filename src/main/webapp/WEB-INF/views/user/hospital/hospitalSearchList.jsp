@@ -326,8 +326,9 @@
 	      	</div>
 		</div>
 	</div>
-	<div class="row" style="width: 100%; height: 200px; padding-top: 100px;">
-		<div class="col-6">
+	
+	<div class="container_map">
+      	<div class="divRe mt-2" >
 			<nav aria-label="Page navigation example">
 			  <ul class="pagination justify-content-center">
 			    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
@@ -337,8 +338,9 @@
 			    <li class="page-item"><a class="page-link" href="#">Next</a></li>
 			  </ul>
 			</nav>
-		</div>
-	</div>
+      	</div>
+   	</div>
+	
       
       <%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
       <%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>
