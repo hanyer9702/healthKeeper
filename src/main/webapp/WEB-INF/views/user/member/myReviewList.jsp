@@ -326,10 +326,12 @@
 	      </div>
 	      <!-- end contact section -->
       </div>
+		<%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
+		<%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>
       
      <script>
 		document.title = '나의 리뷰';
 	</script>
 
-<%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
-<%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>
+	</body>
+</html>

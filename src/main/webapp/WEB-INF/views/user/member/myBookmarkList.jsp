@@ -64,9 +64,12 @@
 	      <!-- end contact section -->
       </div>
       
+	<%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
+	<%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>
+
      <script>
 		document.title = '북마크한 병원';
 	</script>
-
-<%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
-<%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>
+	
+	</body>
+</html>

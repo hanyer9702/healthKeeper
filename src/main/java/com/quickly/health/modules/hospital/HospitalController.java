@@ -18,4 +18,10 @@ public class HospitalController {
 		
 		return "/user/hospital/hospitalView";
 	}
+	
+	@RequestMapping(value = "/user/reviewForm")
+	public String userReviewForm(Model model) throws Exception {
+		
+		return "/user/hospital/reviewForm";
+	}
 }

@@ -54,6 +54,8 @@
 	      </div>
 	      <!-- end contact section -->
 	  </div>
+		<%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
+		<%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>
      	
       <script>
       	goMyMemberEdit = function(seq){
@@ -64,6 +66,6 @@
       	
       	document.title = '마이페이지';
       </script>
-
-<%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
-<%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>
+      
+     </body>
+</html>

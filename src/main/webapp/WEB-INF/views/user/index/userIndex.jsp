@@ -64,5 +64,8 @@
       </div>
       <!-- end three_box section -->
 	
-<%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
-<%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>
+	<%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
+	<%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>
+
+	</body>
+</html>

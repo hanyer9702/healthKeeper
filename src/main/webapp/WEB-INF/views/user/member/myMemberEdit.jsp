@@ -130,10 +130,12 @@
 		</div>
 	
 		<!-- withdrawModal e -->
+		<%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
+		<%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>
 		
 		<script>
 			document.title = '프로필 수정';
 		</script>
-
-<%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
-<%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>
+		
+	</body>
+</html>

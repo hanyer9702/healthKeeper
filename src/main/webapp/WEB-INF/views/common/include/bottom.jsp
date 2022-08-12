@@ -4,5 +4,4 @@
 	<script src="/resources/common/jquery/jquery-ui-1.13.1.custom/jquery-ui.js"></script>
 	<script src="/resources/common/_bootstrap/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
 		 
-</body>
-</html>
+
