@@ -19,6 +19,12 @@ public class IndexController {
 		return "/user/index/userIndex";
 	}
 	
+	@RequestMapping(value = "/officials/officialsMain")
+	public String officialsMain(Model model) throws Exception {
+		
+		return "/officials/index/officialsMain";
+	}
+	
 	@RequestMapping(value = "/test")
 	public String test(Model model) throws Exception {
 		

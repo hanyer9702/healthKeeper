@@ -42,4 +42,19 @@ public class MemberController {
 		
 		return "/user/member/myBookmarkList";
 	}
+	
+//	=====================================
+//	관계자
+	
+	@RequestMapping(value = "/officials/officialsLogin")
+	public String officialsLogin(Model model) throws Exception {
+		
+		return "/officials/member/officialsLogin";
+	}
+	
+	@RequestMapping(value = "/officials/officialsMemberForm")
+	public String officialsMemberForm(Model model) throws Exception {
+		
+		return "/officials/member/officialsMemberForm";
+	}
 }
