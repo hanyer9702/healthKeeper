@@ -46,6 +46,11 @@
 		                     		<h1 class="bigH1">북마크한 병원</h1>
 		                     	</div>
 		                     </div>
+		                     <div class="col-md-12">
+		                     	<div class="divOrange" onclick="location.href = '/user/hospitalChat'">
+		                     		<h1 class="bigH1">문의한 병원</h1>
+		                     	</div>
+		                     </div>
 		                  </div>
 	                  </div>
 	               </div>

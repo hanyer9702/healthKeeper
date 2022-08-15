@@ -2,14 +2,13 @@
 <%@ include file="/WEB-INF/views/common/include/head.jsp"%>
 <%@ include file="/WEB-INF/views/user/include/userTop.jsp"%>
 
-	<div id="wrapper">
 		<!-- banner -->
 	      <div class="blue_bg">
 	         <div class="container">
 	            <div class="row">
 	               <div class="col-md-12">
 	                  <div class="titlepage">
-	                     <h2>리뷰 등록</h2>
+	                     <h2>리뷰 수정</h2>
 	                  </div>
 	               </div>
 	            </div>
@@ -156,7 +155,6 @@
 	         </div>
 	      </div>
 	      <!-- end contact section -->
-      </div>
 
 	<%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
 	<%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>

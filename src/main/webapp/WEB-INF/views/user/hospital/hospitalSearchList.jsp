@@ -9,7 +9,38 @@
                   	<div class="col-md-12">
                      	<div class="divOrange" onclick="location.href = '/user/hospitalView'">
                      		<div>
-			                     <h1>문현치과의원</h1>
+			                     <h1>SNU서울병원</h1>
+		                  	 </div>
+		                     <div class="row">
+		                     	<div class="col-auto">
+		                     		<div style="margin-top:-15px;">
+				                     	<span class="star">
+										  ★★★★★
+										  <span style="width: 50%;">
+										  	★★★★★
+										  </span>
+										 </span>
+	                     			</div>
+		                     	</div>
+		                     	<div class="col-auto" style="margin-left:-15px;">
+		                     		<h4>9</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>|</h4>
+		                     	</div>
+		                     	<div class="col-auto">
+		                     		<h4>리뷰 8</h4>
+		                     	</div>
+		                     	<div class="col-12">
+		                     		<h4>서울 강서구</h4>
+		                     	</div>
+		                     </div>
+                     	</div>
+                     </div>
+                  	<div class="col-md-12">
+                     	<div class="divOrange" onclick="location.href = ''">
+                     		<div>
+			                     <h1>문현치과의원 1</h1>
 		                  	 </div>
 		                     <div class="row">
 		                     	<div class="col-auto">
@@ -40,7 +71,7 @@
                   	<div class="col-md-12">
                      	<div class="divOrange" onclick="location.href = ''">
                      		<div>
-			                     <h1>문현치과의원</h1>
+			                     <h1>문현치과의원 2</h1>
 		                  	 </div>
 		                     <div class="row">
 		                     	<div class="col-auto">
@@ -71,7 +102,7 @@
                   	<div class="col-md-12">
                      	<div class="divOrange" onclick="location.href = ''">
                      		<div>
-			                     <h1>문현치과의원</h1>
+			                     <h1>문현치과의원 3</h1>
 		                  	 </div>
 		                     <div class="row">
 		                     	<div class="col-auto">
@@ -102,7 +133,7 @@
                   	<div class="col-md-12">
                      	<div class="divOrange" onclick="location.href = ''">
                      		<div>
-			                     <h1>문현치과의원</h1>
+			                     <h1>문현치과의원 4</h1>
 		                  	 </div>
 		                     <div class="row">
 		                     	<div class="col-auto">
@@ -133,7 +164,7 @@
                   	<div class="col-md-12">
                      	<div class="divOrange" onclick="location.href = ''">
                      		<div>
-			                     <h1>문현치과의원</h1>
+			                     <h1>문현치과의원 5</h1>
 		                  	 </div>
 		                     <div class="row">
 		                     	<div class="col-auto">
@@ -164,7 +195,7 @@
                   	<div class="col-md-12">
                      	<div class="divOrange" onclick="location.href = ''">
                      		<div>
-			                     <h1>문현치과의원</h1>
+			                     <h1>문현치과의원 6</h1>
 		                  	 </div>
 		                     <div class="row">
 		                     	<div class="col-auto">
@@ -195,7 +226,7 @@
                   	<div class="col-md-12">
                      	<div class="divOrange" onclick="location.href = ''">
                      		<div>
-			                     <h1>문현치과의원</h1>
+			                     <h1>문현치과의원7</h1>
 		                  	 </div>
 		                     <div class="row">
 		                     	<div class="col-auto">
@@ -226,7 +257,7 @@
                   	<div class="col-md-12">
                      	<div class="divOrange" onclick="location.href = ''">
                      		<div>
-			                     <h1>문현치과의원</h1>
+			                     <h1>문현치과의원 8</h1>
 		                  	 </div>
 		                     <div class="row">
 		                     	<div class="col-auto">
@@ -257,38 +288,7 @@
                   	<div class="col-md-12">
                      	<div class="divOrange" onclick="location.href = ''">
                      		<div>
-			                     <h1>문현치과의원</h1>
-		                  	 </div>
-		                     <div class="row">
-		                     	<div class="col-auto">
-		                     		<div style="margin-top:-15px;">
-				                     	<span class="star">
-										  ★★★★★
-										  <span style="width: 50%;">
-										  	★★★★★
-										  </span>
-										 </span>
-	                     			</div>
-		                     	</div>
-		                     	<div class="col-auto" style="margin-left:-15px;">
-		                     		<h4>9</h4>
-		                     	</div>
-		                     	<div class="col-auto">
-		                     		<h4>|</h4>
-		                     	</div>
-		                     	<div class="col-auto">
-		                     		<h4>리뷰 7</h4>
-		                     	</div>
-		                     	<div class="col-12">
-		                     		<h4>서울 관악구 미성동</h4>
-		                     	</div>
-		                     </div>
-                     	</div>
-                     </div>
-                  	<div class="col-md-12">
-                     	<div class="divOrange" onclick="location.href = ''">
-                     		<div>
-			                     <h1>문현치과의원</h1>
+			                     <h1>문현치과의원 9</h1>
 		                  	 </div>
 		                     <div class="row">
 		                     	<div class="col-auto">

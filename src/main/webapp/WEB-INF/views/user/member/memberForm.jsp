@@ -22,20 +22,32 @@
                   <div class="col-md-10 offset-md-1">
                      <form id="request" class="main_form">
                         <div class="row justify-content-center">
-                           <div class="col-md-7">
-                              <input class="contactus" placeholder="아이디" type="text" name="Name"> 
+                           <div class="col-7" style="text-align: left;">
+                              <h1>아이디</h1>
+                           </div>
+                           <div class="col-md-7 mb-4">
+                              <input class="contactus" placeholder="아이디를 입력하세요" type="text" name="Name"> 
+                           </div>
+                           <div class="col-7" style="text-align: left;">
+                              <h1>비밀번호</h1>
+                           </div>
+                           <div class="col-md-7 mb-4">
+                              <input class="contactus" placeholder="비밀번호를 입력하세요" type="password" name="Phone Number"> 
+                           </div>
+                           <div class="col-7" style="text-align: left;">
+                              <h1>닉네임</h1>
+                           </div>
+                           <div class="col-md-7 mb-4">
+                              <input class="contactus" placeholder="닉네임을 입력하세요" type="text" name="Phone Number"> 
+                           </div>
+                           <div class="col-7" style="text-align: left;">
+                              <h1>이메일</h1>
                            </div>
                            <div class="col-md-7">
-                              <input class="contactus" placeholder="비밀번호" type="password" name="Phone Number"> 
-                           </div>
-                           <div class="col-md-7">
-                              <input class="contactus" placeholder="닉네임" type="text" name="Phone Number"> 
-                           </div>
-                           <div class="col-md-7">
-                              <input class="contactus" placeholder="이메일" type="email" name="Phone Number"> 
+                              <input class="contactus" placeholder="이메일을 입력하세요" type="email" name="Phone Number"> 
                            </div>
                            <div class="col-md-12">
-                              <button class="send_btn">회원가입</button>
+                              <button type="button" class="send_btn" onclick="location.href='/user/loginForm'">회원가입</button>
                            </div>
                         </div>
                      </form>

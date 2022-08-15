@@ -2,7 +2,6 @@
 <%@ include file="/WEB-INF/views/common/include/head.jsp"%>
 <%@ include file="/WEB-INF/views/user/include/userTop.jsp"%>
 
-	<div id="wrapper">
 		<!-- banner -->
 	      <div class="blue_bg">
 	         <div class="container">
@@ -156,7 +155,6 @@
 	         </div>
 	      </div>
 	      <!-- end contact section -->
-      </div>
 
 	<%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
 	<%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>
@@ -207,7 +205,7 @@
             	 $('#addButton').append (  
                     	'<div class="row g-1" id="wholePrice">'+
     	                    '<div class="col-12">' +
-    							'<input type="text" class="contactus" id="wholePrice" placeholder="전체 지출비용(원)" >' +
+    							'<input type="number" class="contactus" id="wholePrice" placeholder="전체 지출비용(원)" >' +
     						'</div>'+
     					'</div>'                    
                     ); // end append
