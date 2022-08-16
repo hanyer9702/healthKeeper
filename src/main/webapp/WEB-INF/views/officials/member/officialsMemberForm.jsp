@@ -8,7 +8,7 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2>회원가입</h2>
+                     <h2>병의원회원 회원가입</h2>
                   </div>
                </div>
             </div>
@@ -74,7 +74,7 @@
 	<%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>
 
       <script>
-		document.title = '회원 가입';
+		document.title = '병의원회원 회원가입';
 	</script>
 	
 	</body>

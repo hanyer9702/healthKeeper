@@ -38,6 +38,14 @@
 
 .fixed { position: fixed; top:100; left:100; }
 
+.officials_main {
+     background: url(../../officials/images/officials_main.jpg);
+     padding: 97px 0px 0px 0px;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     min-height: 698px;
+}
+
 .profile_img{
 	border: 3px solid black;
 	width: 180px;

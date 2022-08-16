@@ -8,7 +8,7 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2>로그인</h2>
+                     <h2>병의원회원 로그인</h2>
                   </div>
                </div>
             </div>
@@ -44,7 +44,7 @@
                            		</div>
 		                   </div>
                            <div class="col-md-12">
-                              <button class="send_btn">로그인</button>
+                              <button type="button" class="send_btn" onclick="location.href='/officials/officialsMain'">로그인</button>
                            </div>
                         </div>
                      </form>
@@ -58,7 +58,7 @@
 	<%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>
       
       <script>
-		document.title = '로그인';
+		document.title = '병의원회원 로그인';
 	</script>
 
 	

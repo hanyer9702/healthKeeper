@@ -66,7 +66,13 @@
                                     <a class="nav-link" href="/officials/officialsMain">홈</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="/user/hospitalSearchList">병원 검색</a>
+                                    <a class="nav-link" href="">병원 관리</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="">답글 작성</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="">상담</a>
                                  </li>
                                  <!-- <li class="nav-item">
                                     <a class="nav-link" href="#">Products</a>
