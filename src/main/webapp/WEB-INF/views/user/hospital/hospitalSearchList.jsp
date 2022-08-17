@@ -7,7 +7,7 @@
 	      	<div class="divRe">
 	      		<div class="row gy-2">
                   	<div class="col-md-12">
-                     	<div class="divOrange" onclick="location.href = '/user/hospitalView'">
+                     	<div class="divOrange divLink" onclick="location.href = '/user/hospitalView'">
                      		<div>
 			                     <h1>SNU서울병원</h1>
 		                  	 </div>
