@@ -231,6 +231,7 @@
 .review_content_font{
 	font-size: 18px;
 	color: black;
+	min-height: 150px;
 }
 
 .review_Box{
