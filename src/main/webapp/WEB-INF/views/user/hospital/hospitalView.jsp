@@ -80,7 +80,7 @@
 	                  		</div>
 	                  		<div class="col-6">
 	                  			<div class="hospital_img">
-		                        	<img src="/resources/user/images/profile.jpg">
+		                        	<img src="/resources/user/images/hospital/snu.jpg">
 		                        </div>
 	                  		</div>
 	                  	</div>	
