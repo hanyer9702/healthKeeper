@@ -30,4 +30,37 @@ public class HospitalController {
 		
 		return "/user/hospital/reviewEdit";
 	}
+	
+//	=================================================================
+//	병의원 관계자
+	
+	@RequestMapping(value = "/officials/myHospitalView")
+	public String officialsMyHospitalView(Model model) throws Exception {
+		
+		return "/officials/hospital/myHospitalView";
+	}
+	
+	@RequestMapping(value = "/officials/myHospitalEdit")
+	public String officialsMyHospitalEdit(Model model) throws Exception {
+		
+		return "/officials/hospital/myHospitalEdit";
+	}
+	
+	@RequestMapping(value = "/officials/myHospitalReviewList")
+	public String officialsMyHospitalReviewList(Model model) throws Exception {
+		
+		return "/officials/hospital/myHospitalReviewList";
+	}
+	
+	@RequestMapping(value = "/officials/myHospitalReviewForm")
+	public String officialsMyHospitalReviewForm(Model model) throws Exception {
+		
+		return "/officials/hospital/myHospitalReviewForm";
+	}
+	
+	@RequestMapping(value = "/officials/myHospitalReviewEdit")
+	public String officialsMyHospitalReviewEdit(Model model) throws Exception {
+		
+		return "/officials/hospital/myHospitalReviewEdit";
+	}
 }

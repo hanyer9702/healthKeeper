@@ -12,4 +12,13 @@ public class ChatController {
 				
 		return "/user/chat/hospitalChat";
 	}
+	
+//	======================================================================
+//	병의원관계자
+	
+	@RequestMapping(value = "/officials/myHospitalChat")
+	public String officialsMyHospitalChat(Model model) throws Exception {
+				
+		return "/officials/chat/myHospitalChat";
+	}
 }
