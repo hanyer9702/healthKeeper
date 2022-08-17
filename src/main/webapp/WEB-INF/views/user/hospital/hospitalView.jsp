@@ -28,7 +28,7 @@
 				                     			</div>
 					                     	</div>
 					                     	<div class="col-auto" style="margin-left:-15px;">
-					                     		<h4>9</h4>
+					                     		<h4>2</h4>
 					                     	</div>
 					                     	<div class="col-auto">
 					                     		<h4>|</h4>

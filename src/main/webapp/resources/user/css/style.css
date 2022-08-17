@@ -1043,6 +1043,16 @@ margin: 0 15px 20px 15px;
      box-shadow: 0 0 5px rgba(243, 195, 30, 0.5);
 }
 
+.main_form .contactus:disabled{
+	background-color: #EAEAEA;
+	color: #5D5D5D;
+}
+
+.main_form .contactus:readonly{
+	background-color: #EAEAEA;
+	color: #5D5D5D;
+}
+
 .main_form .contactusmess {
      border: #183661 solid 1px;
      padding: 0 15px;

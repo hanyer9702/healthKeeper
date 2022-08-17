@@ -47,6 +47,7 @@
                      <div class="col-md-4">
                         <ul class="right_icon d_none1">
                            <a href="#" class="order">마이페이지</a> 
+                           <a href="/user/userIndex" class="order">로그아웃</a> 
                         </ul>
                      </div>
                   </div>
