@@ -22,7 +22,7 @@
 	               <div class="row">
 	                  <div class="col-md-10 offset-md-1">
 		                  <div class="row gy-5">
-		                  	<div class="col-md-12">
+		                  	<div class="col-12">
 		                     	<div class="divOrange reviewContainer" style="height: 100%;" onclick="location.href = ''">
 				                     <div class="row">
 				                     	<div class="col-md-4">
@@ -168,6 +168,18 @@
 				                     </div>
 		                     	</div>
 		                     </div>
+	                     	<div class="col-12 pt-2">
+	                     		<form class="main_form">
+		                     		<div class="row justify-content-center">
+		                     			<div class="col-8">
+		                     				<textarea class="contactusmess" name="Name" type="text" placeholder="내용을 입력하세요." style="resize:none; padding-top: 10px;"></textarea>
+		                     			</div>
+		                     			<div class="col-2">
+					                     	<button type="button" class="btn btn-outline-secondary reButton">답글작성</button>
+		                     			</div>
+		                     		</div>
+	                     		</form>
+	                     	</div>
 		                  	<div class="col-md-12">
 		                     	<div class="divOrange reviewContainer" style="height: 100%;" onclick="location.href = ''">
 				                     <div class="row">
@@ -333,6 +345,36 @@
 	
 	<script>
 		document.title = '답글 작성';
+		
+		$(document).ready (function () {            
+			
+			var count = 0;
+			
+            $('.reButton').click (function () {  
+            	$(this).remove ();
+                $('.reButton').prepend (  
+                	'<div class="row g-1" id="addDiv'+count+'">'+
+	                    '<div class="col-6">' +
+							'<input type="text" class="contactus" name="txt" placeholder="진료항목" >' +
+						'</div>'+
+	                    '<div class="col-4">' +
+							'<input type="number" class="contactus" name="cost" placeholder="비용(원)" >' +
+						'</div>'+
+						'<div class="col-2">'+
+							'<div class="d-grid gap-2">'+
+								'<button type="button" id="'+count+'" class="btnRemove btn btn-secondary btn-lg"><i class="bi bi-x"></i></button>'+
+							'</div>'+
+						'</div>' +      
+					'</div>'                    
+                ); // end append  
+                
+                count += 1;
+	            $('.btnRemove').on('click', function () { 
+	            	var idButton =  $(this).attr('id');
+	                $('div[id=addDiv'+ idButton +']').remove (); // remove the button
+	            });
+            }); // end click                                            
+        }); // end ready 
 	</script>
 
 	</body>

@@ -166,7 +166,7 @@
 	      </div>
 	      <!-- end contact section -->
 	      
-	      <%@ include file="/WEB-INF/views/user/include/userFooter.jsp"%>
+	      <%@ include file="/WEB-INF/views/officials/include/officialsFooter.jsp"%>
 			<%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>
 	      
       <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=78f7172c997f5f35677373c66d538e94"></script>
