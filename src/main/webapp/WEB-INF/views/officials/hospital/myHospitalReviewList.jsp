@@ -169,14 +169,13 @@
 		                     	</div>
 		                     </div>
 	                     	<div class="col-12 pt-2">
-	                     		<form class="main_form">
-		                     		<div class="row justify-content-center">
-		                     			<div class="col-8">
-		                     				<textarea class="contactusmess" name="Name" type="text" placeholder="내용을 입력하세요." style="resize:none; padding-top: 10px;"></textarea>
-		                     			</div>
-		                     			<div class="col-2">
-					                     	<button type="button" class="btn btn-outline-secondary reButton">답글작성</button>
-		                     			</div>
+	                     		<div class="row justify-content-end">
+	                     			<div class="col-2" id="div_bu_re_1">
+				                     	<button type="button" id="1" class="btn btn-outline-secondary reButton">답글작성</button>
+	                     			</div>
+	                     		</div>
+	                     		<form class="main_form" id="form_re_1">
+		                     		<div class="row justify-content-end" id="div_re_1">
 		                     		</div>
 	                     		</form>
 	                     	</div>
@@ -348,30 +347,35 @@
 		
 		$(document).ready (function () {            
 			
-			var count = 0;
-			
             $('.reButton').click (function () {  
+            	var thisId =  $(this).attr('id');
             	$(this).remove ();
-                $('.reButton').prepend (  
-                	'<div class="row g-1" id="addDiv'+count+'">'+
-	                    '<div class="col-6">' +
-							'<input type="text" class="contactus" name="txt" placeholder="진료항목" >' +
-						'</div>'+
-	                    '<div class="col-4">' +
-							'<input type="number" class="contactus" name="cost" placeholder="비용(원)" >' +
-						'</div>'+
-						'<div class="col-2">'+
-							'<div class="d-grid gap-2">'+
-								'<button type="button" id="'+count+'" class="btnRemove btn btn-secondary btn-lg"><i class="bi bi-x"></i></button>'+
-							'</div>'+
-						'</div>' +      
-					'</div>'                    
-                ); // end append  
+                $('#div_re_'+thisId).append(
+               		'<div class="col-8">'+
+         				'<textarea class="contactusmess" name="Name" type="text" placeholder="내용을 입력하세요." style="resize:none; padding-top: 10px;"></textarea>'+
+         			'</div>'+
+         			'<div class="col-2">'+
+	         			'<div class="row g-3">'+
+	         				'<div class="col-12">'+
+	                 			'<button type="button" class="btn btn-outline-secondary applyButton">답글작성</button>'+
+		     				'</div>' +
+	         				'<div class="col-12">'+
+	                 			'<button type="button" id="re_' + thisId + '" class="btn btn-outline-danger removeButton">취소</button>'+
+		     				'</div>' +
+		     			'</div>' +
+	     			'</div>'
+                );
                 
-                count += 1;
-	            $('.btnRemove').on('click', function () { 
+	            $('.removeButton').on('click', function () { 
 	            	var idButton =  $(this).attr('id');
-	                $('div[id=addDiv'+ idButton +']').remove (); // remove the button
+	                $('div[id=div_'+ idButton +']').remove (); // remove the button
+	                $('#div_bu_'+idButton).append(
+                   		'<button type="button" id="2" class="btn btn-outline-secondary reButton">답글작성</button>'
+                    );
+	                $('#form_'+idButton).append(
+                		'<div class="row justify-content-end" id="div_'+idButton+'">'+
+                   		'</div>'
+                    );
 	            });
             }); // end click                                            
         }); // end ready 
