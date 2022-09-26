@@ -1,105 +1,118 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
 
-		<!-- bootstrap css -->
-		<link rel="stylesheet" href="/resources/user/css/bootstrap.min.css">
-		<!-- style css -->
-		<link rel="stylesheet" href="/resources/user/css/style.css">
-		<!-- Responsive-->
-		<link rel="stylesheet" href="/resources/user/css/responsive.css">
-		<!-- fevicon -->
-		<link rel="icon" href="/resources/user/images/fevicon.png" type="image/gif" />
-		<!-- Scrollbar Custom CSS -->
-		<link rel="stylesheet" href="/resources/user/css/jquery.mCustomScrollbar.min.css">
-		<!-- Tweaks for older IEs-->
-		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-		
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-		<link rel="stylesheet" href="/resources/user/css/styleHealth.css">
-	</head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="shortcut icon" href="/resources/xdmin/img/icons/icon-48x48.png" />
+
+	<link rel="canonical" href="https://demo-basic.adminkit.io/" />
 	
-	<!-- body -->
-   <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader">
-         	<div class="spinner-border text-warning" style="width: 10rem; height: 10rem;" role="status">
-			  <span class="visually-hidden">Loading...</span>
+	<link href="/resources/xdmin/css/app.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<nav id="sidebar" class="sidebar js-sidebar">
+			<div class="sidebar-content js-simplebar">
+				<a class="sidebar-brand" href="index.html">
+          <span class="align-middle">AdminKit</span>
+        </a>
+
+				<ul class="sidebar-nav">
+					<li class="sidebar-header">
+						Pages
+					</li>
+
+					<li class="sidebar-item active">
+						<a class="sidebar-link" href="index.html">
+              <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="pages-profile.html">
+              <i class="align-middle" data-feather="user"></i> <span class="align-middle">Profile</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="pages-sign-in.html">
+              <i class="align-middle" data-feather="log-in"></i> <span class="align-middle">Sign In</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="pages-sign-up.html">
+              <i class="align-middle" data-feather="user-plus"></i> <span class="align-middle">Sign Up</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="pages-blank.html">
+              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Blank</span>
+            </a>
+					</li>
+
+					<li class="sidebar-header">
+						Tools & Components
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="ui-buttons.html">
+              <i class="align-middle" data-feather="square"></i> <span class="align-middle">Buttons</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="ui-forms.html">
+              <i class="align-middle" data-feather="check-square"></i> <span class="align-middle">Forms</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="ui-cards.html">
+              <i class="align-middle" data-feather="grid"></i> <span class="align-middle">Cards</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="ui-typography.html">
+              <i class="align-middle" data-feather="align-left"></i> <span class="align-middle">Typography</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="icons-feather.html">
+              <i class="align-middle" data-feather="coffee"></i> <span class="align-middle">Icons</span>
+            </a>
+					</li>
+
+					<li class="sidebar-header">
+						Plugins & Addons
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="charts-chartjs.html">
+              <i class="align-middle" data-feather="bar-chart-2"></i> <span class="align-middle">Charts</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="maps-google.html">
+              <i class="align-middle" data-feather="map"></i> <span class="align-middle">Maps</span>
+            </a>
+					</li>
+				</ul>
+
+				<div class="sidebar-cta">
+					<div class="sidebar-cta-content">
+						<strong class="d-inline-block mb-2">Upgrade to Pro</strong>
+						<div class="mb-3 text-sm">
+							Are you looking for more components? Check out our premium version.
+						</div>
+						<div class="d-grid">
+							<a href="upgrade-to-pro.html" class="btn btn-primary">Upgrade to Pro</a>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
-      </div>
-      <!-- end loader -->
-      <!-- header -->
-      <header>
-         <!-- header inner -->
-         <div class="header">
-            <div class="header_midil" style="background-color: #4374D9;">
-               <div class="container">
-                  <div class="row d_flex">
-                     <div class="col-md-4">
-                        <ul class="conta_icon d_none1">
-                           <li><a href="#"><img src="/resources/user/images/email.png" alt="#"/> hanyer9702@gmail.com</a> </li>
-                        </ul>
-                     </div>
-                     <div class="col-md-4">
-                        <a class="logo" href="/officials/officialsMain"><img src="/resources/common/img/logo/logo.png" alt="#"/><p style="color: white;">for hospitals</p></a>
-                     </div>
-                     <div class="col-md-4">
-                        <ul class="right_icon d_none1">
-                           <a href="#" class="order">마이페이지</a> 
-                           <a href="/user/userIndex" class="order">로그아웃</a> 
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="header_bottom">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8">
-                        <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                           <span class="navbar-toggler-icon"></span>
-                           </button>
-                           <div class="collapse navbar-collapse" id="navbarsExample04">
-                              <ul class="navbar-nav mr-auto">
-                                 <li class="nav-item active">
-                                    <a class="nav-link" href="/officials/officialsMain">홈</a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="/officials/myHospitalView">병원 관리</a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="/officials/myHospitalReviewList">답글 작성</a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="/officials/myHospitalChat">상담</a>
-                                 </li>
-                                 <!-- <li class="nav-item">
-                                    <a class="nav-link" href="#">Products</a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Fashion</a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">News</a>
-                                 </li> -->
-                              </ul>
-                           </div>
-                        </nav>
-                     </div>
-                     <div class="col-md-4">
-                        <div class="search">
-                           <form action="/action_page.php">
-                              <input class="form_sea" type="text" placeholder="검색어를 입력하세요" name="search">
-                              <button type="submit" class="seach_icon"><i class="fa fa-search"></i></button>
-                           </form>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </header>
-      <!-- end header inner -->
-      <!-- end header -->
+		</nav>

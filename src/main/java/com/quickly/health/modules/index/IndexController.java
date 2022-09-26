@@ -25,6 +25,12 @@ public class IndexController {
 		return "/officials/index/officialsMain";
 	}
 	
+	@RequestMapping(value = "/xdmin/xdminIndex")
+	public String xdminIndex(Model model) throws Exception {
+		
+		return "/xdmin/index/xdminIndex";
+	}
+	
 	@RequestMapping(value = "/test")
 	public String test(Model model) throws Exception {
 		
