@@ -44,7 +44,7 @@ public class MemberController {
 	}
 	
 //	=====================================
-//	관계자
+//	병의원 관계자
 	
 	@RequestMapping(value = "/officials/officialsLogin")
 	public String officialsLogin(Model model) throws Exception {
@@ -56,5 +56,14 @@ public class MemberController {
 	public String officialsMemberForm(Model model) throws Exception {
 		
 		return "/officials/member/officialsMemberForm";
+	}
+	
+//	====================================================
+//	관리자
+	
+	@RequestMapping(value = "/xdmin/memberList")
+	public String xdminMemberList(Model model) throws Exception {
+		
+		return "/xdmin/member/memberList";
 	}
 }
