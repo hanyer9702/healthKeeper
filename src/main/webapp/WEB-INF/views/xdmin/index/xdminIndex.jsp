@@ -1,71 +1,289 @@
-<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+	pageEncoding="utf-8"%>
 <%@ include file="/WEB-INF/views/common/include/head.jsp"%>
-<%@ include file="/WEB-INF/views/officials/include/officialsTop.jsp"%>
+<%@ include file="/WEB-INF/views/xdmin/include/xdminTop.jsp"%>
 
-	<!-- banner -->
-      <section class="officials_main">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-8">
-                  <div class="text-bg text-bg-officials">
-                     <h1 style="color: #FFFFFF;"> <span class="blodark"> 건강지킴이 </span> <br>For hospitals</h1>
-                     <p>건강한 삶, 건강지킴이와 함께 </p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="ban_img">
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- end banner -->
-      <!-- three_box section -->
-      <div class="three_box">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-4">
-                  <a href="/user/hospitalSearchList">
-	                  <div class="gift_box">
-	                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="rgb(67,116,217)" class="bi bi-gear" viewBox="0 0 16 16">
-						  <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
-						  <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
-						 </svg>
-	                     <span>병원 관리하기</span>
-	                  </div>
-                  </a>
-               </div>
-               <div class="col-md-4">
-                  <a href="javascript:alert('병원 상세에서 접근 가능합니다.');">
-	                  <div class="gift_box">
-	                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="rgb(67,116,217)" class="bi bi-reply-all" viewBox="0 0 16 16">
-						  <path d="M8.098 5.013a.144.144 0 0 1 .202.134V6.3a.5.5 0 0 0 .5.5c.667 0 2.013.005 3.3.822.984.624 1.99 1.76 2.595 3.876-1.02-.983-2.185-1.516-3.205-1.799a8.74 8.74 0 0 0-1.921-.306 7.404 7.404 0 0 0-.798.008h-.013l-.005.001h-.001L8.8 9.9l-.05-.498a.5.5 0 0 0-.45.498v1.153c0 .108-.11.176-.202.134L4.114 8.254a.502.502 0 0 0-.042-.028.147.147 0 0 1 0-.252.497.497 0 0 0 .042-.028l3.984-2.933zM9.3 10.386c.068 0 .143.003.223.006.434.02 1.034.086 1.7.271 1.326.368 2.896 1.202 3.94 3.08a.5.5 0 0 0 .933-.305c-.464-3.71-1.886-5.662-3.46-6.66-1.245-.79-2.527-.942-3.336-.971v-.66a1.144 1.144 0 0 0-1.767-.96l-3.994 2.94a1.147 1.147 0 0 0 0 1.946l3.994 2.94a1.144 1.144 0 0 0 1.767-.96v-.667z"/>
-						  <path d="M5.232 4.293a.5.5 0 0 0-.7-.106L.54 7.127a1.147 1.147 0 0 0 0 1.946l3.994 2.94a.5.5 0 1 0 .593-.805L1.114 8.254a.503.503 0 0 0-.042-.028.147.147 0 0 1 0-.252.5.5 0 0 0 .042-.028l4.012-2.954a.5.5 0 0 0 .106-.699z"/>
-						 </svg>
-	                     <span>답글 작성하기</span>
-	                  </div>
-	              </a>
-               </div>
-               <div class="col-md-4">
-                  <a href="#">
-	                  <div class="gift_box">
-	                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="rgb(67,116,217)" class="bi bi-chat-dots" viewBox="0 0 16 16">
-						  <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-						  <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z"/>
-						 </svg>
-	                     <span>사용자 상담</span>
-	                  </div>
-                  </a>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="lie_footer">
-      </div>
-      <!-- end three_box section -->
-	
-	<%@ include file="/WEB-INF/views/officials/include/officialsFooter.jsp"%>
-	<%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>
 
-	</body>
+
+<main class="content">
+	<div class="container-fluid p-0">
+
+		<h1 class="h3 mb-3">
+			<strong>Analytics</strong> Dashboard
+		</h1>
+
+		<div class="row">
+			<div class="col-xl-6 col-xxl-5 d-flex">
+				<div class="w-100">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="card">
+								<div class="card-body">
+									<div class="row">
+										<div class="col mt-0">
+											<h5 class="card-title">Sales</h5>
+										</div>
+
+										<div class="col-auto">
+											<div class="stat text-primary">
+												<i class="align-middle" data-feather="truck"></i>
+											</div>
+										</div>
+									</div>
+									<h1 class="mt-1 mb-3">2.382</h1>
+									<div class="mb-0">
+										<span class="text-danger"> <i
+											class="mdi mdi-arrow-bottom-right"></i> -3.65%
+										</span> <span class="text-muted">Since last week</span>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-body">
+									<div class="row">
+										<div class="col mt-0">
+											<h5 class="card-title">Visitors</h5>
+										</div>
+
+										<div class="col-auto">
+											<div class="stat text-primary">
+												<i class="align-middle" data-feather="users"></i>
+											</div>
+										</div>
+									</div>
+									<h1 class="mt-1 mb-3">14.212</h1>
+									<div class="mb-0">
+										<span class="text-success"> <i
+											class="mdi mdi-arrow-bottom-right"></i> 5.25%
+										</span> <span class="text-muted">Since last week</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="card">
+								<div class="card-body">
+									<div class="row">
+										<div class="col mt-0">
+											<h5 class="card-title">Earnings</h5>
+										</div>
+
+										<div class="col-auto">
+											<div class="stat text-primary">
+												<i class="align-middle" data-feather="dollar-sign"></i>
+											</div>
+										</div>
+									</div>
+									<h1 class="mt-1 mb-3">$21.300</h1>
+									<div class="mb-0">
+										<span class="text-success"> <i
+											class="mdi mdi-arrow-bottom-right"></i> 6.65%
+										</span> <span class="text-muted">Since last week</span>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-body">
+									<div class="row">
+										<div class="col mt-0">
+											<h5 class="card-title">Orders</h5>
+										</div>
+
+										<div class="col-auto">
+											<div class="stat text-primary">
+												<i class="align-middle" data-feather="shopping-cart"></i>
+											</div>
+										</div>
+									</div>
+									<h1 class="mt-1 mb-3">64</h1>
+									<div class="mb-0">
+										<span class="text-danger"> <i
+											class="mdi mdi-arrow-bottom-right"></i> -2.25%
+										</span> <span class="text-muted">Since last week</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-6 col-xxl-7">
+				<div class="card flex-fill w-100">
+					<div class="card-header">
+
+						<h5 class="card-title mb-0">Recent Movement</h5>
+					</div>
+					<div class="card-body py-3">
+						<div class="chart chart-sm">
+							<canvas id="chartjs-dashboard-line"></canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 col-md-6 col-xxl-3 d-flex order-2 order-xxl-3">
+				<div class="card flex-fill w-100">
+					<div class="card-header">
+
+						<h5 class="card-title mb-0">Browser Usage</h5>
+					</div>
+					<div class="card-body d-flex">
+						<div class="align-self-center w-100">
+							<div class="py-3">
+								<div class="chart chart-xs">
+									<canvas id="chartjs-dashboard-pie"></canvas>
+								</div>
+							</div>
+
+							<table class="table mb-0">
+								<tbody>
+									<tr>
+										<td>Chrome</td>
+										<td class="text-end">4306</td>
+									</tr>
+									<tr>
+										<td>Firefox</td>
+										<td class="text-end">3801</td>
+									</tr>
+									<tr>
+										<td>IE</td>
+										<td class="text-end">1689</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-12 col-xxl-6 d-flex order-3 order-xxl-2">
+				<div class="card flex-fill w-100">
+					<div class="card-header">
+
+						<h5 class="card-title mb-0">Real-Time</h5>
+					</div>
+					<div class="card-body px-4">
+						<div id="world_map" style="height: 350px;"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-xxl-3 d-flex order-1 order-xxl-1">
+				<div class="card flex-fill">
+					<div class="card-header">
+
+						<h5 class="card-title mb-0">Calendar</h5>
+					</div>
+					<div class="card-body d-flex">
+						<div class="align-self-center w-100">
+							<div class="chart">
+								<div id="datetimepicker-dashboard"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 col-lg-8 col-xxl-9 d-flex">
+				<div class="card flex-fill">
+					<div class="card-header">
+
+						<h5 class="card-title mb-0">Latest Projects</h5>
+					</div>
+					<table class="table table-hover my-0">
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th class="d-none d-xl-table-cell">Start Date</th>
+								<th class="d-none d-xl-table-cell">End Date</th>
+								<th>Status</th>
+								<th class="d-none d-md-table-cell">Assignee</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Project Apollo</td>
+								<td class="d-none d-xl-table-cell">01/01/2021</td>
+								<td class="d-none d-xl-table-cell">31/06/2021</td>
+								<td><span class="badge bg-success">Done</span></td>
+								<td class="d-none d-md-table-cell">Vanessa Tucker</td>
+							</tr>
+							<tr>
+								<td>Project Fireball</td>
+								<td class="d-none d-xl-table-cell">01/01/2021</td>
+								<td class="d-none d-xl-table-cell">31/06/2021</td>
+								<td><span class="badge bg-danger">Cancelled</span></td>
+								<td class="d-none d-md-table-cell">William Harris</td>
+							</tr>
+							<tr>
+								<td>Project Hades</td>
+								<td class="d-none d-xl-table-cell">01/01/2021</td>
+								<td class="d-none d-xl-table-cell">31/06/2021</td>
+								<td><span class="badge bg-success">Done</span></td>
+								<td class="d-none d-md-table-cell">Sharon Lessman</td>
+							</tr>
+							<tr>
+								<td>Project Nitro</td>
+								<td class="d-none d-xl-table-cell">01/01/2021</td>
+								<td class="d-none d-xl-table-cell">31/06/2021</td>
+								<td><span class="badge bg-warning">In progress</span></td>
+								<td class="d-none d-md-table-cell">Vanessa Tucker</td>
+							</tr>
+							<tr>
+								<td>Project Phoenix</td>
+								<td class="d-none d-xl-table-cell">01/01/2021</td>
+								<td class="d-none d-xl-table-cell">31/06/2021</td>
+								<td><span class="badge bg-success">Done</span></td>
+								<td class="d-none d-md-table-cell">William Harris</td>
+							</tr>
+							<tr>
+								<td>Project X</td>
+								<td class="d-none d-xl-table-cell">01/01/2021</td>
+								<td class="d-none d-xl-table-cell">31/06/2021</td>
+								<td><span class="badge bg-success">Done</span></td>
+								<td class="d-none d-md-table-cell">Sharon Lessman</td>
+							</tr>
+							<tr>
+								<td>Project Romeo</td>
+								<td class="d-none d-xl-table-cell">01/01/2021</td>
+								<td class="d-none d-xl-table-cell">31/06/2021</td>
+								<td><span class="badge bg-success">Done</span></td>
+								<td class="d-none d-md-table-cell">Christina Mason</td>
+							</tr>
+							<tr>
+								<td>Project Wombat</td>
+								<td class="d-none d-xl-table-cell">01/01/2021</td>
+								<td class="d-none d-xl-table-cell">31/06/2021</td>
+								<td><span class="badge bg-warning">In progress</span></td>
+								<td class="d-none d-md-table-cell">William Harris</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="col-12 col-lg-4 col-xxl-3 d-flex">
+				<div class="card flex-fill w-100">
+					<div class="card-header">
+
+						<h5 class="card-title mb-0">Monthly Sales</h5>
+					</div>
+					<div class="card-body d-flex w-100">
+						<div class="align-self-center chart chart-lg">
+							<canvas id="chartjs-dashboard-bar"></canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</main>
+
+<%@ include file="/WEB-INF/views/xdmin/include/xdminFooter.jsp"%>
+<%@ include file="/WEB-INF/views/common/include/bottom.jsp"%>
+
+</body>
 </html>
