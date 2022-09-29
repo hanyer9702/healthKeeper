@@ -35,9 +35,8 @@
 					</a></li>
 
 					<li class="sidebar-item" ><a class="sidebar-link"
-						href="pages-sign-in.html"> <i class="align-middle"
-							data-feather="log-in"></i> <span class="align-middle">Sign
-								In</span>
+						href="/xdmin/dataList"> <i class="align-middle"
+							data-feather="log-in"></i> <span class="align-middle">데이터 관리</span>
 					</a></li>
 
 					<li class="sidebar-item"><a class="sidebar-link"

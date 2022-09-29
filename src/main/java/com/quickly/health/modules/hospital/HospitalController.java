@@ -63,4 +63,37 @@ public class HospitalController {
 		
 		return "/officials/hospital/myHospitalReviewEdit";
 	}
+	
+//	=================================================================
+//	관리자
+	
+	@RequestMapping(value = "/xdmin/dataList")
+	public String xdminHospitalList(Model model) throws Exception {
+		
+		return "/xdmin/hospital/hospitalList";
+	}
+	
+	@RequestMapping(value = "/xdmin/dataView")
+	public String xdminHospitalView(Model model) throws Exception {
+		
+		return "/xdmin/hospital/hospitalView";
+	}
+	
+	@RequestMapping(value = "/xdmin/dataEdit")
+	public String xdminDataEdit(Model model) throws Exception {
+		
+		return "/xdmin/hospital/dataEdit";
+	}
+	
+	@RequestMapping(value = "/xdmin/newDataView")
+	public String xdminDataView(Model model) throws Exception {
+		
+		return "/xdmin/hospital/dataView";
+	}
+	
+	@RequestMapping(value = "/xdmin/dataForm")
+	public String xdminDataForm(Model model) throws Exception {
+		
+		return "/xdmin/hospital/dataForm";
+	}
 }
