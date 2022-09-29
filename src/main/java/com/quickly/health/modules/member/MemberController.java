@@ -66,4 +66,22 @@ public class MemberController {
 		
 		return "/xdmin/member/memberList";
 	}
+	
+	@RequestMapping(value = "/xdmin/memberView")
+	public String xdminMemberView(Model model) throws Exception {
+		
+		return "/xdmin/member/memberView";
+	}
+	
+	@RequestMapping(value = "/xdmin/memberEdit")
+	public String xdminMemberEdit(Model model) throws Exception {
+		
+		return "/xdmin/member/memberEdit";
+	}
+	
+	@RequestMapping(value = "/xdmin/memberForm")
+	public String xdminMemberForm(Model model) throws Exception {
+		
+		return "/xdmin/member/memberForm";
+	}
 }
