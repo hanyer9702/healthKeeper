@@ -29,7 +29,7 @@
 						</table>
 						<div>
 							<button type="button" class="btn btn-success"
-								onclick="location.href='/xdmin/memberList'">확인</button>
+								onclick="location.href='/xdmin/memberList'">등록</button>
 							<button type="button" class="btn btn-danger" onclick="location.href='/xdmin/memberList'">취소</button>
 						</div>
 					</div>
