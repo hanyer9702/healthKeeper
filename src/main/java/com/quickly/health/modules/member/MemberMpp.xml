@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.quickly.health.modules.member.MemberMpp">
+
+    <resultMap id="resultMapObj" type="com.quickly.health.modules.member.Member"></resultMap>
+    
+	<!-- 로그인 시작 -->
+	<select id="selectOneLogin" resultMap="resultMapObj">
+		SELECT
+			hkmmSeq
+			, hkmmId
+			, hkmmPassword
+			, hkmmMemberType
+		FROM
+			hekpMember
+		WHERE 1=1
+			AND hkmmId = #{hkmmId}
+			AND hkmmPassword = #{hkmmPassword}
+	</select>
+	<!-- 로그인 끝 -->
+	
+</mapper>

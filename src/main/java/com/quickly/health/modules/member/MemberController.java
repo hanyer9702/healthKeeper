@@ -1,16 +1,62 @@
 package com.quickly.health.modules.member;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class MemberController {
+	
+	@Autowired
+	MemberServiceImpl service;
+	
+//	일반 회원 로그인
 
 	@RequestMapping(value = "/user/loginForm")
 	public String userLogin(Model model) throws Exception {
 				
 		return "/user/member/loginForm";
+	}
+	
+	@ResponseBody
+	@RequestMapping(value = "/user/loginProc")
+	public Map<String, Object> userLoginProc(Member dto, HttpSession httpSession) throws Exception {
+		
+		Map<String, Object> returnMap = new HashMap<String, Object>();
+		
+		Member rtMember = service.selectOneLogin(dto);
+
+		if(rtMember != null) {
+			httpSession.setAttribute("sessSeq", rtMember.getHkmmSeq());
+			httpSession.setAttribute("sessId", rtMember.getHkmmId());
+			httpSession.setAttribute("sessName", rtMember.getHkmmPassword()); 
+			httpSession.setAttribute("sessMemberType", rtMember.getHkmmMemberType()); 
+			
+			returnMap.put("rt", "success");
+		} else {
+			returnMap.put("rt", "fail");
+		}
+		return returnMap;
+	}
+	
+	@ResponseBody
+	@RequestMapping(value = "/user/logoutProc")
+	public Map<String, Object> userLogoutProc(Member dto, HttpSession httpSession) throws Exception {
+		
+		Map<String, Object> returnMap = new HashMap<String, Object>();
+		
+		httpSession.invalidate();
+		
+		returnMap.put("rt", "success");
+		
+		return returnMap;
 	}
 	
 	@RequestMapping(value = "/user/memberForm")
