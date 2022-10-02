@@ -127,7 +127,11 @@ public class MemberController {
 	}
 	
 	@RequestMapping(value = "/xdmin/memberView")
-	public String xdminMemberView(Model model) throws Exception {
+	public String xdminMemberView(@ModelAttribute("vo") MemberVo vo, Model model) throws Exception {
+		
+		Member rt = service.selectXdminMember(vo);
+		
+		model.addAttribute("rt", rt);
 		
 		return "/xdmin/member/memberView";
 	}

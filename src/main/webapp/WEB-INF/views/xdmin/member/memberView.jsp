@@ -17,13 +17,13 @@
 							<tbody class="table-group-divider">
 								<tr>
 									<th scope="row">아이디</th>
-									<td>Mark</td>
+									<td><c:out value="${rt.hkmmId}"/></td>
 									<th>닉네임</th>
-									<td>@mdo</td>
+									<td><c:out value="${rt.hkmmNickname}"/></td>
 								</tr>
 								<tr>
 									<th scope="row">이메일</th>
-									<td colspan="3">Jacob</td>
+									<td colspan="3"><c:out value="${rt.hkmmEmailFull}"/></td>
 								</tr>
 							</tbody>
 						</table>

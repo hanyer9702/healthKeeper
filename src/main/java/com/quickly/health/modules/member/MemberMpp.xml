@@ -30,7 +30,7 @@
 	</select>
 	<!-- 로그인 끝 -->
 	
-	<!-- 회원 목록 조회 시작 -->
+	<!-- 관리자 회원 관리 시작 -->
 	<select id="selectOneMemberCount" resultType="Integer">
 		SELECT
 			count(*)
@@ -48,6 +48,19 @@
 		<include refid="selectCommon" />
 		LIMIT #{startRnumForMysql},#{rowNumToShow}
 	</select>
-	<!-- 회원 목록 조회 끝 -->
+	
+	<select id="selectXdminMember" resultMap="resultMapObj">
+		SELECT
+			hkmmSeq
+			, hkmmId
+			, hkmmPassword
+			, hkmmMemberType
+			, hkmmNickname
+			, hkmmEmailFull
+			, regDateTime
+		<include refid="selectCommon" />
+			AND hkmmSeq = #{hkmmSeq}
+	</select>
+	<!-- 관리자 회원 관리 끝 -->
 	
 </mapper>

@@ -7,7 +7,8 @@ public interface MemberService {
 //	로그인
 	public Member selectUserLogin(Member dto) throws Exception;
 	
-//	회원 목록 조회
+//	관리자 회원 관리
 	public int selectOneMemberCount(MemberVo vo) throws Exception;
 	public List<Member> selectListXdminMember(MemberVo vo) throws Exception;
+	public Member selectXdminMember(MemberVo vo) throws Exception;
 }

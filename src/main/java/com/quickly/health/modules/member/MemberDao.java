@@ -22,11 +22,14 @@ public class MemberDao {
 		return sqlSession.selectOne(namespace + ".selectUserLogin", dto);
 	}
 	
-//	회원 목록 조회
+//	관리자 회원 관리
 	public int selectOneMemberCount(MemberVo vo) {
 		return sqlSession.selectOne(namespace + ".selectOneMemberCount", vo);
 	}
 	public List<Member> selectListXdminMember(MemberVo vo){
 		return sqlSession.selectList(namespace + ".selectListXdminMember", vo);
+	}
+	public Member selectXdminMember(MemberVo vo) {
+		return sqlSession.selectOne(namespace + ".selectXdminMember", vo);
 	}
 }

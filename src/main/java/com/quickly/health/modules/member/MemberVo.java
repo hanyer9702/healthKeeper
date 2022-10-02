@@ -1,6 +1,8 @@
 package com.quickly.health.modules.member;
 
 public class MemberVo {
+	
+	private String hkmmSeq;
 
 //paging
 	private int thisPage = 1;									// 현재 페이지
@@ -153,6 +155,14 @@ public class MemberVo {
 
 	public void setStartRnumForMysql(int startRnumForMysql) {
 		this.startRnumForMysql = startRnumForMysql;
+	}
+
+	public String getHkmmSeq() {
+		return hkmmSeq;
+	}
+
+	public void setHkmmSeq(String hkmmSeq) {
+		this.hkmmSeq = hkmmSeq;
 	}
 	
 	

@@ -28,6 +28,11 @@ public class MemberServiceImpl implements MemberService {
 		return dao.selectListXdminMember(vo);
 	}
 
+	@Override
+	public Member selectXdminMember(MemberVo vo) throws Exception {
+		return dao.selectXdminMember(vo);
+	}
 
+	
 	
 }

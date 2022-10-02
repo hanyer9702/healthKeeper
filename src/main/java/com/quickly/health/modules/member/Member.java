@@ -12,6 +12,8 @@ public class Member {
 	private String hkmmNickname;
 	private Date regDateTime;
 	
+	private String hkmmEmailFull;
+	
 //	==========================================
 	
 	public String getHkmmSeq() {
@@ -49,6 +51,12 @@ public class Member {
 	}
 	public void setRegDateTime(Date regDateTime) {
 		this.regDateTime = regDateTime;
+	}
+	public String getHkmmEmailFull() {
+		return hkmmEmailFull;
+	}
+	public void setHkmmEmailFull(String hkmmEmailFull) {
+		this.hkmmEmailFull = hkmmEmailFull;
 	}
 	
 	
