@@ -5,6 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.quickly.health.modules.common.util.UtilDateTime;
+
 @Service
 public class MemberServiceImpl implements MemberService {
 	
@@ -35,7 +37,18 @@ public class MemberServiceImpl implements MemberService {
 
 	@Override
 	public int updateXdminMember(Member dto) throws Exception {
+		
+		dto.setModDateTime(UtilDateTime.nowDate());
+		
 		return dao.updateXdminMember(dto);
+	}
+
+	@Override
+	public int updeleXdminMember(Member dto) throws Exception {
+		
+		dto.setModDateTime(UtilDateTime.nowDate());
+		
+		return dao.updeleXdminMember(dto);
 	}
 
 	

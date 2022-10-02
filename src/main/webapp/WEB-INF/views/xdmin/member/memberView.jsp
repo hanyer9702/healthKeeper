@@ -29,7 +29,7 @@
 						</table>
 						<div>
 							<button type="button" class="btn btn-warning" onclick="location.href='/xdmin/memberEdit?hkmmSeq=${rt.hkmmSeq}&thisPage=${vo.thisPage}'">수정</button>
-							<button type="button" class="btn btn-danger">삭제</button>
+							<button type="button" class="btn btn-danger" onclick="javascript:memberUele(${rt.hkmmSeq},${vo.thisPage})">삭제</button>
 							<button type="button" class="btn btn-success"
 								onclick="location.href='/xdmin/memberList?thisPage=${vo.thisPage}'">목록</button>
 						</div>
@@ -54,6 +54,17 @@
 				$('.sidebar-nav').find('a[href="' + url + '"]').parents('li')
 						.addClass('active');
 			});
+	
+	memberUele = function(seq, thisPage){
+		var num = confirm("목록에서 삭제 하시겠습니까?");
+		
+		if(num){
+			location.href="/xdmin/memberUele?hkmmSeq=" + seq + "&thisPage=" + thisPage;
+		} else {
+			return false;
+		}
+	}
+	
 </script>
 
 </body>

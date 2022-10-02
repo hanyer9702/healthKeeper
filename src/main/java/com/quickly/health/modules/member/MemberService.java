@@ -12,4 +12,5 @@ public interface MemberService {
 	public List<Member> selectListXdminMember(MemberVo vo) throws Exception;
 	public Member selectXdminMember(MemberVo vo) throws Exception;
 	public int updateXdminMember(Member dto) throws Exception;
+	public int updeleXdminMember(Member dto) throws Exception;
 }

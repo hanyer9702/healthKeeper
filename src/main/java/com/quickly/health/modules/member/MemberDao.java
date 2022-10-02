@@ -35,4 +35,7 @@ public class MemberDao {
 	public int updateXdminMember(Member dto) {
 		return sqlSession.update(namespace + ".updateXdminMember", dto);
 	}
+	public int updeleXdminMember(Member dto) {
+		return sqlSession.update(namespace + ".updeleXdminMember", dto);
+	}
 }

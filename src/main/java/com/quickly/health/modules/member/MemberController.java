@@ -154,6 +154,14 @@ public class MemberController {
 		return "redirect:/xdmin/memberView?hkmmSeq="+ dto.getHkmmSeq() + "&thisPage=" + vo.getThisPage();
 	}
 	
+	@RequestMapping(value = "/xdmin/memberUele")
+	public String xdminMemberUele(@ModelAttribute("vo") MemberVo vo, Member dto, Model model) throws Exception {
+		
+		service.updeleXdminMember(dto);
+		
+		return "redirect:/xdmin/memberList?thisPage=" + vo.getThisPage();
+	}
+	
 	@RequestMapping(value = "/xdmin/memberForm")
 	public String xdminMemberForm(Model model) throws Exception {
 		

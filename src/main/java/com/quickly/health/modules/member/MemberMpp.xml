@@ -68,6 +68,17 @@
 		SET
 			hkmmNickname = #{hkmmNickname}
 			, hkmmEmailFull = #{hkmmEmailFull}
+			, modDateTime = #{modDateTime}
+		WHERE 1=1
+			AND hkmmSeq = #{hkmmSeq}
+	</update>
+	
+	<update id="updeleXdminMember">
+		UPDATE
+			hekpMember
+		SET
+			hkmmDelNy = 1
+			, modDateTime = #{modDateTime}
 		WHERE 1=1
 			AND hkmmSeq = #{hkmmSeq}
 	</update>

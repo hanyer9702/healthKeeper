@@ -13,6 +13,7 @@ public class Member {
 	private Date regDateTime;
 	
 	private String hkmmEmailFull;
+	private Date modDateTime;
 	
 //	==========================================
 	
@@ -57,6 +58,12 @@ public class Member {
 	}
 	public void setHkmmEmailFull(String hkmmEmailFull) {
 		this.hkmmEmailFull = hkmmEmailFull;
+	}
+	public Date getModDateTime() {
+		return modDateTime;
+	}
+	public void setModDateTime(Date modDateTime) {
+		this.modDateTime = modDateTime;
 	}
 	
 	
