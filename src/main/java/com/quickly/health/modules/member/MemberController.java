@@ -137,9 +137,21 @@ public class MemberController {
 	}
 	
 	@RequestMapping(value = "/xdmin/memberEdit")
-	public String xdminMemberEdit(Model model) throws Exception {
+	public String xdminMemberEdit(@ModelAttribute("vo") MemberVo vo, Model model) throws Exception {
+		
+		Member rt = service.selectXdminMember(vo);
+		
+		model.addAttribute("rt", rt);
 		
 		return "/xdmin/member/memberEdit";
+	}
+	
+	@RequestMapping(value = "/xdmin/memberUpdt")
+	public String xdminMemberUpdt(@ModelAttribute("vo") MemberVo vo, Member dto, Model model) throws Exception {
+		
+		service.updateXdminMember(dto);
+		
+		return "redirect:/xdmin/memberView?hkmmSeq="+ dto.getHkmmSeq() + "&thisPage=" + vo.getThisPage();
 	}
 	
 	@RequestMapping(value = "/xdmin/memberForm")

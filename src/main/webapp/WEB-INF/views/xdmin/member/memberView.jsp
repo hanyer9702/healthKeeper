@@ -28,10 +28,10 @@
 							</tbody>
 						</table>
 						<div>
-							<button type="button" class="btn btn-warning" onclick="location.href='/xdmin/memberEdit'">수정</button>
+							<button type="button" class="btn btn-warning" onclick="location.href='/xdmin/memberEdit?hkmmSeq=${rt.hkmmSeq}&thisPage=${vo.thisPage}'">수정</button>
 							<button type="button" class="btn btn-danger">삭제</button>
 							<button type="button" class="btn btn-success"
-								onclick="location.href='/xdmin/memberList'">목록</button>
+								onclick="location.href='/xdmin/memberList?thisPage=${vo.thisPage}'">목록</button>
 						</div>
 					</div>
 				</div>

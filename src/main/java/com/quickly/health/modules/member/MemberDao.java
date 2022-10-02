@@ -32,4 +32,7 @@ public class MemberDao {
 	public Member selectXdminMember(MemberVo vo) {
 		return sqlSession.selectOne(namespace + ".selectXdminMember", vo);
 	}
+	public int updateXdminMember(Member dto) {
+		return sqlSession.update(namespace + ".updateXdminMember", dto);
+	}
 }

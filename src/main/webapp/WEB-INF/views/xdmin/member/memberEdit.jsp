@@ -13,25 +13,28 @@
 			<div class="col-12">
 				<div class="card">
 					<div class="card-body">
-						<table class="table">
-							<tbody class="table-group-divider">
-								<tr>
-									<th scope="row" style="width:25%;">아이디</th>
-									<td style="width:25%;"><input type="text" class="form-control" id="name"></td>
-									<th style="width:25%;">닉네임</th>
-									<td style="width:25%;"><input type="text" class="form-control" id="nickname"></td>
-								</tr>
-								<tr>
-									<th scope="row">이메일</th>
-									<td colspan="3"><input type="text" class="form-control" id="email"></td>
-								</tr>
-							</tbody>
-						</table>
-						<div>
-							<button type="button" class="btn btn-success"
-								onclick="location.href='/xdmin/memberView'">확인</button>
-							<button type="button" class="btn btn-danger" onclick="location.href='/xdmin/memberView'">취소</button>
-						</div>
+						<form method="get" id="editForm" name="editForm" action="/xdmin/memberUpdt">
+							<input type="hidden" id="hkmmSeq" name="hkmmSeq" value="<c:out value="${rt.hkmmSeq}"/>">
+							<table class="table">
+								<tbody class="table-group-divider">
+									<tr>
+										<th scope="row" style="width:25%;">아이디</th>
+										<td style="width:25%;"><input type="text" class="form-control" id="hkmmId" name="hkmmId" value="<c:out value="${rt.hkmmId}"/>" disabled></td>
+										<th style="width:25%;">닉네임</th>
+										<td style="width:25%;"><input type="text" class="form-control" id="hkmmNickname" name="hkmmNickname" value="<c:out value="${rt.hkmmNickname}"/>"></td>
+									</tr>
+									<tr>
+										<th scope="row">이메일</th>
+										<td colspan="3"><input type="email" class="form-control" id="hkmmEmailFull" name="hkmmEmailFull" value="<c:out value="${rt.hkmmEmailFull}"/>"></td>
+									</tr>
+								</tbody>
+							</table>
+							<div>
+								<button type="submit" class="btn btn-success"
+									onclick="location.href='/xdmin/memberView?hkmmSeq=${item.hkmmSeq}&thisPage=${vo.thisPage}'">확인</button>
+								<button type="button" class="btn btn-danger" onclick="location.href='/xdmin/memberView?hkmmSeq=${item.hkmmSeq}&thisPage=${vo.thisPage}'">취소</button>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
