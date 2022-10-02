@@ -17,8 +17,8 @@
 	<div class="wrapper">
 		<nav id="sidebar" class="sidebar js-sidebar">
 			<div class="sidebar-content js-simplebar">
-				<a class="sidebar-brand" href="index.html"> <span
-					class="align-middle">AdminKit</span>
+				<a class="sidebar-brand" href="/xdmin/xdminIndex"> <span
+					class="align-middle">건강알리미 관리자</span>
 				</a>
 
 				<ul class="sidebar-nav">
@@ -31,13 +31,18 @@
 
 					<li class="sidebar-item" ><a class="sidebar-link"
 						href="/xdmin/dataList"> <i class="align-middle"
-							data-feather="log-in"></i> <span class="align-middle">데이터 관리</span>
+							data-feather="database"></i> <span class="align-middle">데이터 관리</span>
+					</a></li>
+					
+					<li class="sidebar-item" ><a class="sidebar-link"
+						href="/user/userIndex"> <i class="align-middle"
+							data-feather="log-in"></i> <span class="align-middle">돌아가기</span>
 					</a></li>
 
 					
 				</ul>
 
-				<div class="sidebar-cta">
+				<!-- <div class="sidebar-cta">
 					<div class="sidebar-cta-content">
 						<strong class="d-inline-block mb-2">Upgrade to Pro</strong>
 						<div class="mb-3 text-sm">Are you looking for more
@@ -47,7 +52,7 @@
 								to Pro</a>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</nav>
 
