@@ -1,11 +1,16 @@
 package com.quickly.health.modules.member;
 
+import java.util.Date;
+
 public class Member {
 
 	private String hkmmSeq;
 	private String hkmmId;
 	private String hkmmPassword;
 	private String hkmmMemberType;
+	
+	private String hkmmNickname;
+	private Date regDateTime;
 	
 //	==========================================
 	
@@ -33,6 +38,20 @@ public class Member {
 	public void setHkmmMemberType(String hkmmMemberType) {
 		this.hkmmMemberType = hkmmMemberType;
 	}
+	public String getHkmmNickname() {
+		return hkmmNickname;
+	}
+	public void setHkmmNickname(String hkmmNickname) {
+		this.hkmmNickname = hkmmNickname;
+	}
+	public Date getRegDateTime() {
+		return regDateTime;
+	}
+	public void setRegDateTime(Date regDateTime) {
+		this.regDateTime = regDateTime;
+	}
+	
+	
 	
 	
 }

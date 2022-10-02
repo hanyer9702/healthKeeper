@@ -1,6 +1,7 @@
 package com.quickly.health.modules.member;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import javax.servlet.http.HttpSession;
@@ -8,6 +9,7 @@ import javax.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -31,7 +33,7 @@ public class MemberController {
 		
 		Map<String, Object> returnMap = new HashMap<String, Object>();
 		
-		Member rtMember = service.selectOneLogin(dto);
+		Member rtMember = service.selectUserLogin(dto);
 
 		if(rtMember != null) {
 			httpSession.setAttribute("sessSeq", rtMember.getHkmmSeq());
@@ -108,7 +110,18 @@ public class MemberController {
 //	관리자
 	
 	@RequestMapping(value = "/xdmin/memberList")
-	public String xdminMemberList(Model model) throws Exception {
+	public String xdminMemberList(@ModelAttribute("vo") MemberVo vo, Model model) throws Exception {
+		
+		int count = service.selectOneMemberCount(vo);
+		
+		vo.setParamsPaging(count);
+		
+		if (count != 0) {
+			List<Member> list = service.selectListXdminMember(vo);
+			model.addAttribute("list", list);
+		} else {
+			// by pass
+		}
 		
 		return "/xdmin/member/memberList";
 	}
