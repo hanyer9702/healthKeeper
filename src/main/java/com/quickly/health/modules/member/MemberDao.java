@@ -32,6 +32,9 @@ public class MemberDao {
 	public Member selectXdminMember(MemberVo vo) {
 		return sqlSession.selectOne(namespace + ".selectXdminMember", vo);
 	}
+	public int insertXdminMember(Member dto) {
+		return sqlSession.insert(namespace + ".insertXdminMember", dto);
+	}
 	public int updateXdminMember(Member dto) {
 		return sqlSession.update(namespace + ".updateXdminMember", dto);
 	}

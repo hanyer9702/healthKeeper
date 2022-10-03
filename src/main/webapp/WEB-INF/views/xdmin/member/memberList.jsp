@@ -75,7 +75,7 @@
 							<nav aria-label="Page navigation example">
 								<ul class="pagination">
 									<c:if test="${vo.startPage gt vo.pageNumToShow}">
-										<li class="page-item"><a class="page-link" href="memberList?rowNumToShow=${vo.rowNumToShow}&thisPage=${vo.startPage - 1}">&laquo;</a></li>
+										<li class="page-item"><a class="page-link" href="memberList?thisPage=${vo.startPage - 1}">&laquo;</a></li>
 									</c:if>
 									<c:forEach begin="${vo.startPage}" end="${vo.endPage}"
 										varStatus="i">
@@ -96,7 +96,7 @@
 						</div>
 						<div>
 							<button type="button" class="btn btn-success"
-								onclick="location.href='/xdmin/memberForm'">등록</button>
+								onclick="location.href='/xdmin/memberForm?thisPage=${vo.thisPage}'">등록</button>
 						</div>
 					</div>
 				</div>

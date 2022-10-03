@@ -36,6 +36,15 @@ public class MemberServiceImpl implements MemberService {
 	}
 
 	@Override
+	public int insertXdminMember(Member dto) throws Exception {
+		
+		dto.setRegDateTime(UtilDateTime.nowDate());
+		dto.setModDateTime(UtilDateTime.nowDate());
+		
+		return dao.insertXdminMember(dto);
+	}
+	
+	@Override
 	public int updateXdminMember(Member dto) throws Exception {
 		
 		dto.setModDateTime(UtilDateTime.nowDate());

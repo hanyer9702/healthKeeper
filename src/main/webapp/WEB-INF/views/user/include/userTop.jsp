@@ -61,7 +61,7 @@
 
 								<c:choose>
 									<c:when test="${not empty sessSeq}">
-										<c:if test="${sessMemberType eq 3}">
+										<c:if test="${sessMemberType eq 4}">
 											<a href="/xdmin/xdminIndex" class="order">관리자 페이지</a>
 										</c:if>
 										<a href="/user/myMemberView" class="order">마이페이지</a>

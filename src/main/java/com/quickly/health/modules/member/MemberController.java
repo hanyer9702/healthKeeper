@@ -136,6 +136,20 @@ public class MemberController {
 		return "/xdmin/member/memberView";
 	}
 	
+	@RequestMapping(value = "/xdmin/memberForm")
+	public String xdminMemberForm(@ModelAttribute("vo") MemberVo vo, Model model) throws Exception {
+		
+		return "/xdmin/member/memberForm";
+	}
+	
+	@RequestMapping(value = "/xdmin/memberInst")
+	public String xdminMemberInst(@ModelAttribute("vo") MemberVo vo, Member dto, Model model) throws Exception {
+		
+		service.insertXdminMember(dto);
+		
+		return "redirect:/xdmin/memberList?thisPage=" + vo.getThisPage();
+	}
+	
 	@RequestMapping(value = "/xdmin/memberEdit")
 	public String xdminMemberEdit(@ModelAttribute("vo") MemberVo vo, Model model) throws Exception {
 		
@@ -162,9 +176,4 @@ public class MemberController {
 		return "redirect:/xdmin/memberList?thisPage=" + vo.getThisPage();
 	}
 	
-	@RequestMapping(value = "/xdmin/memberForm")
-	public String xdminMemberForm(Model model) throws Exception {
-		
-		return "/xdmin/member/memberForm";
-	}
 }
