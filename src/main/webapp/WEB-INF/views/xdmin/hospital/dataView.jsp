@@ -17,9 +17,9 @@
 							<thead>
 								<tr>
 									<th scope="col">no</th>
-									<th scope="col">아이디</th>
 									<th scope="col">이름</th>
-									<th scope="col">등록일</th>
+									<th scope="col">주소</th>
+									<th scope="col">전화번호</th>
 								</tr>
 							</thead>
 							<tbody class="table-group-divider">
